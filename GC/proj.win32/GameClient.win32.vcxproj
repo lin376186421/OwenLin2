@@ -1,0 +1,488 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{B4D8A213-BFCD-4E96-8BAF-2B00687B8E7E}</ProjectGuid>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>$(SolutionDir)$(Configuration).win32\</OutDir>
+    <IntDir>$(Configuration).win32\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>$(SolutionDir)$(Configuration).win32\</OutDir>
+    <IntDir>$(Configuration).win32\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>.;..\Classes;..\libs\cocos2dx;..\libs\cocos2dx\include;..\libs\cocos2dx\kazmath\include;..\libs\cocos2dx\platform\win32;..\libs\cocos2dx\platform\third_party\win32;..\libs\cocos2dx\platform\third_party\win32\OGLES;..\libs\CocosDenshion\include;..\libs\extensions;..\libs\cocos2dx\platform\third_party\win32\pthread;..\libs\cocos2dx\platform\third_party\win32\zlib;..\Classes\Framework;..\Classes\Global;..\Classes\Utils;..\Classes\Utils\PngPacketDecode;..\Classes\extensions;..\libs\external\libwebsockets\win32\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <MinimalRebuild>true</MinimalRebuild>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;STRICT;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS_DEBUG;COCOS2D_DEBUG=1;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <DisableSpecificWarnings>4267;4251;4244;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(OutDir);..\..\Debug.win32;..\Classes\Utils\PngPacket\win32;..\libs\external\libwebsockets\win32\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>libcocos2d.lib;libExtensions.lib;opengl32.lib;glew32.lib;libCocosDenshion.lib;libcurl_imp.lib;pthreadVCE2.lib;ws2_32.lib;libzlib.lib;netapi32.lib;libPngPacket2012staticd.lib;websockets.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <ResourceCompile>
+      <Culture>0x0409</Culture>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <TargetEnvironment>Win32</TargetEnvironment>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <HeaderFileName>GameClient.h</HeaderFileName>
+      <InterfaceIdentifierFileName>GameClient_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>GameClient_p.c</ProxyFileName>
+      <GenerateStublessProxies>true</GenerateStublessProxies>
+      <TypeLibraryName>$(IntDir)/GameClient.tlb</TypeLibraryName>
+      <DllDataFileName>
+      </DllDataFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>.;..\Classes;..\libs\cocos2dx;..\libs\cocos2dx\include;..\libs\cocos2dx\kazmath\include;..\libs\cocos2dx\platform\win32;..\libs\cocos2dx\platform\third_party\win32;..\libs\cocos2dx\platform\third_party\win32\OGLES;..\libs\CocosDenshion\include;..\libs\extensions;..\libs\cocos2dx\platform\third_party\win32\pthread;..\Classes\Global;..\libs\cocos2dx\platform\third_party\win32\zlib;..\Classes\FrameWork;..\Classes\Utils\PngPacketDecode;..\Classes\Utils\;..\Classes\extensions;..\libs\external\libwebsockets\win32\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;STRICT;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGSNDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <DisableSpecificWarnings>4267;4251;4244;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+      <AdditionalLibraryDirectories>$(OutDir);..\Classes\Utils\PngPacket\win32;..\libs\external\libwebsockets\win32\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>libcocos2d.lib;libExtensions.lib;opengl32.lib;glew32.lib;libCocosDenshion.lib;libcurl_imp.lib;pthreadVCE2.lib;ws2_32.lib;libzlib.lib;netapi32.lib;libPngPacket2012static.lib;websockets.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <ResourceCompile>
+      <Culture>0x0409</Culture>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <TargetEnvironment>Win32</TargetEnvironment>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <HeaderFileName>GameClient.h</HeaderFileName>
+      <InterfaceIdentifierFileName>GameClient_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>GameClient_p.c</ProxyFileName>
+      <GenerateStublessProxies>true</GenerateStublessProxies>
+      <TypeLibraryName>$(IntDir)/GameClient.tlb</TypeLibraryName>
+      <DllDataFileName>
+      </DllDataFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <None Include="res\GameClient.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="GameClient.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Classes\AppDelegate.h" />
+    <ClInclude Include="..\Classes\base32.h" />
+    <ClInclude Include="..\Classes\coc\AchievementInfo.h" />
+    <ClInclude Include="..\Classes\coc\Action_GrayFlash.h" />
+    <ClInclude Include="..\Classes\coc\Action_LightFlash.h" />
+    <ClInclude Include="..\Classes\coc\Action_UpDown.h" />
+    <ClInclude Include="..\Classes\coc\AniObj.h" />
+    <ClInclude Include="..\Classes\coc\AniObjMgr.h" />
+    <ClInclude Include="..\Classes\coc\AniObj_Down.h" />
+    <ClInclude Include="..\Classes\coc\AniObj_Flash.h" />
+    <ClInclude Include="..\Classes\coc\AniObj_FlyingFont.h" />
+    <ClInclude Include="..\Classes\coc\AniObj_FlyingFont2.h" />
+    <ClInclude Include="..\Classes\coc\AniObj_Move.h" />
+    <ClInclude Include="..\Classes\coc\AniObj_Normal.h" />
+    <ClInclude Include="..\Classes\coc\AniObj_WaitFadeOut.h" />
+    <ClInclude Include="..\Classes\coc\AStar.h" />
+    <ClInclude Include="..\Classes\coc\AStarAreaMap.h" />
+    <ClInclude Include="..\Classes\coc\AStarMap.h" />
+    <ClInclude Include="..\Classes\coc\AStarNode.h" />
+    <ClInclude Include="..\Classes\coc\AsyncImg.h" />
+    <ClInclude Include="..\Classes\coc\BaseCSV.h" />
+    <ClInclude Include="..\Classes\coc\BaseDef.h" />
+    <ClInclude Include="..\Classes\coc\BaseObj.h" />
+    <ClInclude Include="..\Classes\coc\Building.h" />
+    <ClInclude Include="..\Classes\coc\BuildingDestroyEmitter.h" />
+    <ClInclude Include="..\Classes\coc\BuildingInfoMgr.h" />
+    <ClInclude Include="..\Classes\coc\BuildingMgr.h" />
+    <ClInclude Include="..\Classes\coc\Building_AirDefense.h" />
+    <ClInclude Include="..\Classes\coc\Building_Attack.h" />
+    <ClInclude Include="..\Classes\coc\Building_Barrack.h" />
+    <ClInclude Include="..\Classes\coc\Building_Cannon.h" />
+    <ClInclude Include="..\Classes\coc\Building_Clan.h" />
+    <ClInclude Include="..\Classes\coc\Building_ClanAllies.h" />
+    <ClInclude Include="..\Classes\coc\Building_HeroAltar.h" />
+    <ClInclude Include="..\Classes\coc\Building_Mortar.h" />
+    <ClInclude Include="..\Classes\coc\Building_Normal.h" />
+    <ClInclude Include="..\Classes\coc\Building_Resource.h" />
+    <ClInclude Include="..\Classes\coc\Building_Storage.h" />
+    <ClInclude Include="..\Classes\coc\Building_Tower.h" />
+    <ClInclude Include="..\Classes\coc\Building_Trap.h" />
+    <ClInclude Include="..\Classes\coc\Building_Wall.h" />
+    <ClInclude Include="..\Classes\coc\CannonBomb.h" />
+    <ClInclude Include="..\Classes\coc\ChatMgr.h" />
+    <ClInclude Include="..\Classes\coc\ClanMgr.h" />
+    <ClInclude Include="..\Classes\coc\ConfigValMgr.h" />
+    <ClInclude Include="..\Classes\coc\CSV.h" />
+    <ClInclude Include="..\Classes\coc\CSVMgr.h" />
+    <ClInclude Include="..\Classes\coc\EmitterWorker.h" />
+    <ClInclude Include="..\Classes\coc\EnvMapMgr.h" />
+    <ClInclude Include="..\Classes\coc\ExperienceLevels.h" />
+    <ClInclude Include="..\Classes\coc\Flying.h" />
+    <ClInclude Include="..\Classes\coc\GoldEmitter.h" />
+    <ClInclude Include="..\Classes\coc\GuideMgr.h" />
+    <ClInclude Include="..\Classes\coc\HeroMgr.h" />
+    <ClInclude Include="..\Classes\coc\HttpClient.h" />
+    <ClInclude Include="..\Classes\coc\ImgMgr.h" />
+    <ClInclude Include="..\Classes\coc\LeagueMgr.h" />
+    <ClInclude Include="..\Classes\coc\Lock.h" />
+    <ClInclude Include="..\Classes\coc\LogicInfo.h" />
+    <ClInclude Include="..\Classes\coc\MapData.h" />
+    <ClInclude Include="..\Classes\coc\MapFont.h" />
+    <ClInclude Include="..\Classes\coc\MilitaryRankMgr.h" />
+    <ClInclude Include="..\Classes\coc\Mod_Clan.h" />
+    <ClInclude Include="..\Classes\coc\Mod_User.h" />
+    <ClInclude Include="..\Classes\coc\Mod_WorldChat.h" />
+    <ClInclude Include="..\Classes\coc\NetListener.h" />
+    <ClInclude Include="..\Classes\coc\NetModBase.h" />
+    <ClInclude Include="..\Classes\coc\NotifyListener.h" />
+    <ClInclude Include="..\Classes\coc\OilEmitter.h" />
+    <ClInclude Include="..\Classes\coc\ParticleSystem.h" />
+    <ClInclude Include="..\Classes\coc\Path.h" />
+    <ClInclude Include="..\Classes\coc\Person.h" />
+    <ClInclude Include="..\Classes\coc\PersonMgr.h" />
+    <ClInclude Include="..\Classes\coc\PlayerInfo.h" />
+    <ClInclude Include="..\Classes\coc\PlayerScene.h" />
+    <ClInclude Include="..\Classes\coc\Progress.h" />
+    <ClInclude Include="..\Classes\coc\Progress2.h" />
+    <ClInclude Include="..\Classes\coc\ProgressBar.h" />
+    <ClInclude Include="..\Classes\coc\Projectile.h" />
+    <ClInclude Include="..\Classes\coc\Projectile2.h" />
+    <ClInclude Include="..\Classes\coc\RandMgr.h" />
+    <ClInclude Include="..\Classes\coc\ResConfig.h" />
+    <ClInclude Include="..\Classes\coc\SceneBgr.h" />
+    <ClInclude Include="..\Classes\coc\SceneResMgr.h" />
+    <ClInclude Include="..\Classes\coc\SelectBuildingListener.h" />
+    <ClInclude Include="..\Classes\coc\SkillMgr.h" />
+    <ClInclude Include="..\Classes\coc\SocketClient.h" />
+    <ClInclude Include="..\Classes\coc\SoundMgr.h" />
+    <ClInclude Include="..\Classes\coc\TownhallLevelInfo.h" />
+    <ClInclude Include="..\Classes\coc\ViewString.h" />
+    <ClInclude Include="..\Classes\coc\ViewStringMgr.h" />
+    <ClInclude Include="..\Classes\coc\WorldSceneNode.h" />
+    <ClInclude Include="..\Classes\extensions\CCScrollViewExt.h" />
+    <ClInclude Include="..\Classes\extensions\CRectLayer.h" />
+    <ClInclude Include="..\Classes\extensions\CTextInputField.h" />
+    <ClInclude Include="..\Classes\extensions\CTextInputFieldImpl.h" />
+    <ClInclude Include="..\Classes\extensions\CUINode.h" />
+    <ClInclude Include="..\Classes\extensions\CUINodeCache.h" />
+    <ClInclude Include="..\Classes\extensions\win32\CTextInputFieldWin32.h" />
+    <ClInclude Include="..\Classes\form\AchievementUI.h" />
+    <ClInclude Include="..\Classes\form\BarrackUI.h" />
+    <ClInclude Include="..\Classes\form\BonusUI.h" />
+    <ClInclude Include="..\Classes\form\BuildUI.h" />
+    <ClInclude Include="..\Classes\form\ChatUI.h" />
+    <ClInclude Include="..\Classes\form\ChgScene.h" />
+    <ClInclude Include="..\Classes\form\ClanEditUI.h" />
+    <ClInclude Include="..\Classes\form\ClanInfoUI.h" />
+    <ClInclude Include="..\Classes\form\ClanUI.h" />
+    <ClInclude Include="..\Classes\form\CreateUI.h" />
+    <ClInclude Include="..\Classes\form\DailyBonusUI.h" />
+    <ClInclude Include="..\Classes\form\EnvMapUI.h" />
+    <ClInclude Include="..\Classes\form\FightUI.h" />
+    <ClInclude Include="..\Classes\form\FindMatchUI.h" />
+    <ClInclude Include="..\Classes\form\GiftUI.h" />
+    <ClInclude Include="..\Classes\form\GuideUI.h" />
+    <ClInclude Include="..\Classes\form\HeroUI.h" />
+    <ClInclude Include="..\Classes\form\InfoUI.h" />
+    <ClInclude Include="..\Classes\form\ItemMenuUI.h" />
+    <ClInclude Include="..\Classes\form\LabUI.h" />
+    <ClInclude Include="..\Classes\form\LeagueUI.h" />
+    <ClInclude Include="..\Classes\form\LoadingUI.h" />
+    <ClInclude Include="..\Classes\form\LogoUI.h" />
+    <ClInclude Include="..\Classes\form\MailUI.h" />
+    <ClInclude Include="..\Classes\form\MainUI.h" />
+    <ClInclude Include="..\Classes\form\MessageUI.h" />
+    <ClInclude Include="..\Classes\form\MilitaryRankUI.h" />
+    <ClInclude Include="..\Classes\form\NotifyUI.h" />
+    <ClInclude Include="..\Classes\form\PlayerUpLevelUI.h" />
+    <ClInclude Include="..\Classes\form\RaidNotifyUI.h" />
+    <ClInclude Include="..\Classes\form\RankingUI.h" />
+    <ClInclude Include="..\Classes\form\ReplayUI.h" />
+    <ClInclude Include="..\Classes\form\SaleLogoUI.h" />
+    <ClInclude Include="..\Classes\form\ScoreUI.h" />
+    <ClInclude Include="..\Classes\form\SettingUI.h" />
+    <ClInclude Include="..\Classes\form\Shop.h" />
+    <ClInclude Include="..\Classes\form\SkillGlyphUI.h" />
+    <ClInclude Include="..\Classes\form\SkillInfoUI.h" />
+    <ClInclude Include="..\Classes\form\SkillUI.h" />
+    <ClInclude Include="..\Classes\form\SoldierUI.h" />
+    <ClInclude Include="..\Classes\form\SpinUI.h" />
+    <ClInclude Include="..\Classes\form\SupportUI.h" />
+    <ClInclude Include="..\Classes\form\TypeShop.h" />
+    <ClInclude Include="..\Classes\form\UpLevelUI.h" />
+    <ClInclude Include="..\Classes\form\VisitUI.h" />
+    <ClInclude Include="..\Classes\Framework\CAppPlatform.h" />
+    <ClInclude Include="..\Classes\Framework\CDevice.h" />
+    <ClInclude Include="..\Classes\Framework\CHttpService.h" />
+    <ClInclude Include="..\Classes\Framework\CLocalManager.h" />
+    <ClInclude Include="..\Classes\Framework\CUserData.h" />
+    <ClInclude Include="..\Classes\Framework\InPurchase.h" />
+    <ClInclude Include="..\Classes\GameLayer.h" />
+    <ClInclude Include="..\Classes\GameWorldScene.h" />
+    <ClInclude Include="..\Classes\Global\AppConfig.h" />
+    <ClInclude Include="..\Classes\Global\AppDebug.h" />
+    <ClInclude Include="..\Classes\Global\NGNKit.h" />
+    <ClInclude Include="..\Classes\HelloWorldScene.h" />
+    <ClInclude Include="..\Classes\Utils\Base64.h" />
+    <ClInclude Include="..\Classes\Utils\CDataStream.h" />
+    <ClInclude Include="..\Classes\Utils\CFileStream.h" />
+    <ClInclude Include="..\Classes\Utils\CImagePacket.h" />
+    <ClInclude Include="..\Classes\Utils\crypt_aes.h" />
+    <ClInclude Include="..\Classes\Utils\DataDecrypt.h" />
+    <ClInclude Include="..\Classes\Utils\md5.h" />
+    <ClInclude Include="..\Classes\Utils\network\CJsonParse.h" />
+    <ClInclude Include="..\Classes\Utils\network\CNetData.h" />
+    <ClInclude Include="..\Classes\Utils\network\CUrlParse.h" />
+    <ClInclude Include="..\Classes\Utils\network\defpacketdefine.h" />
+    <ClInclude Include="..\Classes\Utils\network\globaldefine.h" />
+    <ClInclude Include="..\Classes\Utils\network\http\CHttpRequest.h" />
+    <ClInclude Include="..\Classes\Utils\network\netstream.h" />
+    <ClInclude Include="..\Classes\Utils\network\scoket\CCSocket.h" />
+    <ClInclude Include="..\Classes\zephyr\EncryptInt.h" />
+    <ClInclude Include="..\Classes\zephyr\Lock.h" />
+    <ClInclude Include="..\Classes\zephyr\net\BaseMsgDef.h" />
+    <ClInclude Include="..\Classes\zephyr\net\MsgDecoder.h" />
+    <ClInclude Include="..\Classes\zephyr\net\MsgDecoderKey.h" />
+    <ClInclude Include="..\Classes\zephyr\net\MsgDecoderKey_Simple.h" />
+    <ClInclude Include="..\Classes\zephyr\net\MsgDecoder_Simple.h" />
+    <ClInclude Include="..\Classes\zephyr\net\MsgHead.h" />
+    <ClInclude Include="..\Classes\zephyr\net\MsgProc.h" />
+    <ClInclude Include="..\Classes\zephyr\net\NetKernel.h" />
+    <ClInclude Include="..\Classes\zephyr\net\TCPClient.h" />
+    <ClInclude Include="..\Classes\zephyr\Progress.h" />
+    <ClInclude Include="..\Classes\zephyr\Thread.h" />
+    <ClInclude Include="..\Classes\zephyr\ViewString.h" />
+    <ClInclude Include="..\Classes\zephyr\Zephyr.h" />
+    <ClInclude Include="..\Classes\zephyr\ZephyrBaseDef.h" />
+    <ClInclude Include="main.h" />
+    <ClInclude Include="resource.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Classes\AppDelegate.cpp" />
+    <ClCompile Include="..\Classes\base32.cpp" />
+    <ClCompile Include="..\Classes\coc\AchievementInfo.cpp" />
+    <ClCompile Include="..\Classes\coc\Action_GrayFlash.cpp" />
+    <ClCompile Include="..\Classes\coc\Action_LightFlash.cpp" />
+    <ClCompile Include="..\Classes\coc\Action_UpDown.cpp" />
+    <ClCompile Include="..\Classes\coc\AniObj.cpp" />
+    <ClCompile Include="..\Classes\coc\AniObjMgr.cpp" />
+    <ClCompile Include="..\Classes\coc\AniObj_Down.cpp" />
+    <ClCompile Include="..\Classes\coc\AniObj_Flash.cpp" />
+    <ClCompile Include="..\Classes\coc\AniObj_FlyingFont.cpp" />
+    <ClCompile Include="..\Classes\coc\AniObj_FlyingFont2.cpp" />
+    <ClCompile Include="..\Classes\coc\AniObj_Move.cpp" />
+    <ClCompile Include="..\Classes\coc\AniObj_Normal.cpp" />
+    <ClCompile Include="..\Classes\coc\AniObj_WaitFadeOut.cpp" />
+    <ClCompile Include="..\Classes\coc\AStar.cpp" />
+    <ClCompile Include="..\Classes\coc\AStarAreaMap.cpp" />
+    <ClCompile Include="..\Classes\coc\AStarMap.cpp" />
+    <ClCompile Include="..\Classes\coc\AStarNode.cpp" />
+    <ClCompile Include="..\Classes\coc\BaseCSV.cpp" />
+    <ClCompile Include="..\Classes\coc\BaseDef.cpp" />
+    <ClCompile Include="..\Classes\coc\BaseObj.cpp" />
+    <ClCompile Include="..\Classes\coc\Building.cpp" />
+    <ClCompile Include="..\Classes\coc\BuildingDestroyEmitter.cpp" />
+    <ClCompile Include="..\Classes\coc\BuildingInfoMgr.cpp" />
+    <ClCompile Include="..\Classes\coc\BuildingMgr.cpp" />
+    <ClCompile Include="..\Classes\coc\Building_AirDefense.cpp" />
+    <ClCompile Include="..\Classes\coc\Building_Attack.cpp" />
+    <ClCompile Include="..\Classes\coc\Building_Barrack.cpp" />
+    <ClCompile Include="..\Classes\coc\Building_Cannon.cpp" />
+    <ClCompile Include="..\Classes\coc\Building_Clan.cpp" />
+    <ClCompile Include="..\Classes\coc\Building_ClanAllies.cpp" />
+    <ClCompile Include="..\Classes\coc\Building_HeroAltar.cpp" />
+    <ClCompile Include="..\Classes\coc\Building_Mortar.cpp" />
+    <ClCompile Include="..\Classes\coc\Building_Normal.cpp" />
+    <ClCompile Include="..\Classes\coc\Building_Resource.cpp" />
+    <ClCompile Include="..\Classes\coc\Building_Storage.cpp" />
+    <ClCompile Include="..\Classes\coc\Building_Tower.cpp" />
+    <ClCompile Include="..\Classes\coc\Building_Trap.cpp" />
+    <ClCompile Include="..\Classes\coc\Building_Wall.cpp" />
+    <ClCompile Include="..\Classes\coc\ChatMgr.cpp" />
+    <ClCompile Include="..\Classes\coc\ClanMgr.cpp" />
+    <ClCompile Include="..\Classes\coc\ConfigValMgr.cpp" />
+    <ClCompile Include="..\Classes\coc\CSVMgr.cpp" />
+    <ClCompile Include="..\Classes\coc\EnvMapMgr.cpp" />
+    <ClCompile Include="..\Classes\coc\ExperienceLevels.cpp" />
+    <ClCompile Include="..\Classes\coc\Flying.cpp" />
+    <ClCompile Include="..\Classes\coc\GoldEmitter.cpp" />
+    <ClCompile Include="..\Classes\coc\GuideMgr.cpp" />
+    <ClCompile Include="..\Classes\coc\HeroMgr.cpp" />
+    <ClCompile Include="..\Classes\coc\HttpClient.cpp" />
+    <ClCompile Include="..\Classes\coc\ImgMgr.cpp" />
+    <ClCompile Include="..\Classes\coc\LeagueMgr.cpp" />
+    <ClCompile Include="..\Classes\coc\LogicInfo.cpp" />
+    <ClCompile Include="..\Classes\coc\MapData.cpp" />
+    <ClCompile Include="..\Classes\coc\MilitaryRankMgr.cpp" />
+    <ClCompile Include="..\Classes\coc\Mod_Clan.cpp" />
+    <ClCompile Include="..\Classes\coc\Mod_User.cpp" />
+    <ClCompile Include="..\Classes\coc\Mod_WorldChat.cpp" />
+    <ClCompile Include="..\Classes\coc\OilEmitter.cpp" />
+    <ClCompile Include="..\Classes\coc\ParticleSystem.cpp" />
+    <ClCompile Include="..\Classes\coc\Person.cpp" />
+    <ClCompile Include="..\Classes\coc\PersonMgr.cpp" />
+    <ClCompile Include="..\Classes\coc\PlayerScene.cpp" />
+    <ClCompile Include="..\Classes\coc\Progress2.cpp" />
+    <ClCompile Include="..\Classes\coc\ProgressBar.cpp" />
+    <ClCompile Include="..\Classes\coc\Projectile.cpp" />
+    <ClCompile Include="..\Classes\coc\Projectile2.cpp" />
+    <ClCompile Include="..\Classes\coc\RandMgr.cpp" />
+    <ClCompile Include="..\Classes\coc\ResConfig.cpp" />
+    <ClCompile Include="..\Classes\coc\SceneBgr.cpp" />
+    <ClCompile Include="..\Classes\coc\SceneResMgr.cpp" />
+    <ClCompile Include="..\Classes\coc\SkillMgr.cpp" />
+    <ClCompile Include="..\Classes\coc\SocketClient.cpp" />
+    <ClCompile Include="..\Classes\coc\SoundMgr.cpp" />
+    <ClCompile Include="..\Classes\coc\TownhallLevelInfo.cpp" />
+    <ClCompile Include="..\Classes\coc\ViewString.cpp" />
+    <ClCompile Include="..\Classes\coc\WorldSceneNode.cpp" />
+    <ClCompile Include="..\Classes\extensions\CCScrollViewExt.cpp" />
+    <ClCompile Include="..\Classes\extensions\CRectLayer.cpp" />
+    <ClCompile Include="..\Classes\extensions\CTextInputField.cpp" />
+    <ClCompile Include="..\Classes\extensions\CUINode.cpp" />
+    <ClCompile Include="..\Classes\extensions\CUINodeCache.cpp" />
+    <ClCompile Include="..\Classes\extensions\win32\CTextInputFieldWin32.cpp" />
+    <ClCompile Include="..\Classes\form\AchievementUI.cpp" />
+    <ClCompile Include="..\Classes\form\BarrackUI.cpp" />
+    <ClCompile Include="..\Classes\form\BonusUI.cpp" />
+    <ClCompile Include="..\Classes\form\BuildUI.cpp" />
+    <ClCompile Include="..\Classes\form\ChatUI.cpp" />
+    <ClCompile Include="..\Classes\form\ChgScene.cpp" />
+    <ClCompile Include="..\Classes\form\ClanEditUI.cpp" />
+    <ClCompile Include="..\Classes\form\ClanInfoUI.cpp" />
+    <ClCompile Include="..\Classes\form\ClanUI.cpp" />
+    <ClCompile Include="..\Classes\form\CreateUI.cpp" />
+    <ClCompile Include="..\Classes\form\DailyBonusUI.cpp" />
+    <ClCompile Include="..\Classes\form\EnvMapUI.cpp" />
+    <ClCompile Include="..\Classes\form\FightUI.cpp" />
+    <ClCompile Include="..\Classes\form\FindMatchUI.cpp" />
+    <ClCompile Include="..\Classes\form\GiftUI.cpp" />
+    <ClCompile Include="..\Classes\form\GuideUI.cpp" />
+    <ClCompile Include="..\Classes\form\HeroUI.cpp" />
+    <ClCompile Include="..\Classes\form\InfoUI.cpp" />
+    <ClCompile Include="..\Classes\form\ItemMenuUI.cpp" />
+    <ClCompile Include="..\Classes\form\LabUI.cpp" />
+    <ClCompile Include="..\Classes\form\LeagueUI.cpp" />
+    <ClCompile Include="..\Classes\form\LoadingUI.cpp" />
+    <ClCompile Include="..\Classes\form\LogoUI.cpp" />
+    <ClCompile Include="..\Classes\form\MailUI.cpp" />
+    <ClCompile Include="..\Classes\form\MainUI.cpp" />
+    <ClCompile Include="..\Classes\form\MessageUI.cpp" />
+    <ClCompile Include="..\Classes\form\MilitaryRankUI.cpp" />
+    <ClCompile Include="..\Classes\form\NotifyUI.cpp" />
+    <ClCompile Include="..\Classes\form\PlayerUpLevelUI.cpp" />
+    <ClCompile Include="..\Classes\form\RaidNotifyUI.cpp" />
+    <ClCompile Include="..\Classes\form\RankingUI.cpp" />
+    <ClCompile Include="..\Classes\form\ReplayUI.cpp" />
+    <ClCompile Include="..\Classes\form\SaleLogoUI.cpp" />
+    <ClCompile Include="..\Classes\form\ScoreUI.cpp" />
+    <ClCompile Include="..\Classes\form\SettingUI.cpp" />
+    <ClCompile Include="..\Classes\form\Shop.cpp" />
+    <ClCompile Include="..\Classes\form\SkillGlyphUI.cpp" />
+    <ClCompile Include="..\Classes\form\SkillInfoUI.cpp" />
+    <ClCompile Include="..\Classes\form\SkillUI.cpp" />
+    <ClCompile Include="..\Classes\form\SoldierUI.cpp" />
+    <ClCompile Include="..\Classes\form\SpinUI.cpp" />
+    <ClCompile Include="..\Classes\form\SupportUI.cpp" />
+    <ClCompile Include="..\Classes\form\TypeShop.cpp" />
+    <ClCompile Include="..\Classes\form\UpLevelUI.cpp" />
+    <ClCompile Include="..\Classes\form\VisitUI.cpp" />
+    <ClCompile Include="..\Classes\Framework\CHttpService.cpp" />
+    <ClCompile Include="..\Classes\Framework\InPurchase.cpp" />
+    <ClCompile Include="..\Classes\Framework\platform\win32\CAppPlatform.cpp" />
+    <ClCompile Include="..\Classes\Framework\platform\win32\CDevice.cpp" />
+    <ClCompile Include="..\Classes\GameLayer.cpp" />
+    <ClCompile Include="..\Classes\GameWorldScene.cpp" />
+    <ClCompile Include="..\Classes\Global\AppConfig.cpp" />
+    <ClCompile Include="..\Classes\Global\AppDebug.cpp" />
+    <ClCompile Include="..\Classes\Global\NGNKit.cpp" />
+    <ClCompile Include="..\Classes\HelloWorldScene.cpp" />
+    <ClCompile Include="..\Classes\Utils\Base64.cpp" />
+    <ClCompile Include="..\Classes\Utils\CDataStream.cpp" />
+    <ClCompile Include="..\Classes\Utils\CFileStream.cpp" />
+    <ClCompile Include="..\Classes\Utils\CImagePacket.cpp" />
+    <ClCompile Include="..\Classes\Utils\crypt_aes.c" />
+    <ClCompile Include="..\Classes\Utils\jsoncpp\json_reader.cpp" />
+    <ClCompile Include="..\Classes\Utils\jsoncpp\json_value.cpp" />
+    <ClCompile Include="..\Classes\Utils\jsoncpp\json_writer.cpp" />
+    <ClCompile Include="..\Classes\Utils\md5.cpp" />
+    <ClCompile Include="..\Classes\Utils\network\http\CHttpRequest.cpp" />
+    <ClCompile Include="..\Classes\Utils\network\scoket\CCSocket.cpp" />
+    <ClCompile Include="..\Classes\Utils\network\scoket\pthread.cpp" />
+    <ClCompile Include="..\Classes\zephyr\EncryptInt.cpp" />
+    <ClCompile Include="..\Classes\zephyr\net\Base.cpp" />
+    <ClCompile Include="..\Classes\zephyr\net\MsgDecoder_Simple.cpp" />
+    <ClCompile Include="..\Classes\zephyr\net\MsgProc.cpp" />
+    <ClCompile Include="..\Classes\zephyr\net\NetKernel.cpp" />
+    <ClCompile Include="..\Classes\zephyr\net\TCPClient.cpp" />
+    <ClCompile Include="..\Classes\zephyr\Progress.cpp" />
+    <ClCompile Include="..\Classes\zephyr\Thread.cpp" />
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

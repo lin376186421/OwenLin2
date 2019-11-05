@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <string name="app_name">Battle Glory</string>
+    <string name="facebook_app_id">1486777034927209</string>
+    <string name="GCM_SENDER_ID">160756256026</string>
+    <string name="APP_LICENSE_KEY">MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAhs64wAMu0y9OmnTQbynUwwm6oIZD9+TgpKz+iNiJL+6G4rZTIkyJeymM63Jw+OPE5MvBNYUwsFQs+dXcWMiGKKVzFEO3HsmZiRlgjVj6Z4dhVwDK0+qy5fCj9CVu0cmC2qrO3TxC118aZUJm/C+TzoRqMl7NTKNPcy4dqIFbsheYgPDc5LZcJD3rzozN0P/I2v2pn5XayOyg4yd82xzLhaifjmXUZiCM1DU1HBSLZ0wG0fjds7ZLjZA1hA2E8he9wK6+cPRPDoYv8gRjILg0OMuKUiMdVEkuWyLnzTjHYG+BcDQ1WC1doy/c3wwRk0CILEkMMsEquNqKvzlWdeB10wIDAQAB</string>
+</resources>

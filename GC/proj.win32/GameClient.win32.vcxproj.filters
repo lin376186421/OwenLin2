@@ -1,0 +1,1122 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="source">
+      <UniqueIdentifier>{a89a8f50-4c87-4314-8838-ef5ca9440a77}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm</Extensions>
+    </Filter>
+    <Filter Include="resource">
+      <UniqueIdentifier>{0f493afb-ef4c-4509-a0c1-0c87e685bf9d}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;jpg;jpeg;jpe;png;manifest</Extensions>
+    </Filter>
+    <Filter Include="class">
+      <UniqueIdentifier>{4f019250-0a63-4207-943a-19ca5525fa48}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="class\coc">
+      <UniqueIdentifier>{f2415503-fb6e-4b3e-975c-1f681494b823}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="class\form">
+      <UniqueIdentifier>{b6cef7ce-cca0-4a81-a6aa-06b9d01d5870}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="class\zephyr">
+      <UniqueIdentifier>{86f15c5a-71a3-4a20-a521-9675cbd1d12e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="class\zephyr\net">
+      <UniqueIdentifier>{ae4fdabb-1a01-4173-a9fe-b1f984e5fd5e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="class\coc\Building">
+      <UniqueIdentifier>{e33b41a0-9fa1-46dd-b5c4-bd3f2ca15bdd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="class\coc\Person">
+      <UniqueIdentifier>{af91ac4f-de6c-4d1d-bc1b-cfcd9a6c9c91}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="class\Framework">
+      <UniqueIdentifier>{5854612b-f17e-4b54-bd06-ca64d393fabc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="class\Utils">
+      <UniqueIdentifier>{f67b53a2-3776-4707-aa3f-d6a8cae8bb87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="class\extensions">
+      <UniqueIdentifier>{15a3c80e-da1e-43d6-8188-f7f3f56085ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="class\json">
+      <UniqueIdentifier>{0e2ee4c5-cc56-48d8-ab77-54ce24879eb2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="class\extensions\win32">
+      <UniqueIdentifier>{39355c92-3429-4573-8601-1376d96afd8c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="class\Utils\network">
+      <UniqueIdentifier>{470174b9-d645-4add-9bc8-40527b2120e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="class\Utils\network\http">
+      <UniqueIdentifier>{c3e555c5-25b5-488b-9026-28eca1440b83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="class\Utils\network\scoket">
+      <UniqueIdentifier>{f1eb95bd-12c6-465a-8551-d9ecc64324e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="class\coc\Net">
+      <UniqueIdentifier>{6b46fc25-0b47-4a76-a4d6-992cb81ae02c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\GameClient.ico">
+      <Filter>resource</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="GameClient.rc">
+      <Filter>resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Classes\zephyr\Lock.h">
+      <Filter>class\zephyr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\zephyr\Progress.h">
+      <Filter>class\zephyr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\zephyr\Thread.h">
+      <Filter>class\zephyr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\zephyr\Zephyr.h">
+      <Filter>class\zephyr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\zephyr\ZephyrBaseDef.h">
+      <Filter>class\zephyr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\zephyr\net\BaseMsgDef.h">
+      <Filter>class\zephyr\net</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\zephyr\net\MsgDecoder.h">
+      <Filter>class\zephyr\net</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\zephyr\net\MsgDecoder_Simple.h">
+      <Filter>class\zephyr\net</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\zephyr\net\MsgDecoderKey.h">
+      <Filter>class\zephyr\net</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\zephyr\net\MsgDecoderKey_Simple.h">
+      <Filter>class\zephyr\net</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\zephyr\net\MsgHead.h">
+      <Filter>class\zephyr\net</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\zephyr\net\MsgProc.h">
+      <Filter>class\zephyr\net</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\zephyr\net\NetKernel.h">
+      <Filter>class\zephyr\net</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\zephyr\net\TCPClient.h">
+      <Filter>class\zephyr\net</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\form\GuideUI.h">
+      <Filter>class\form</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\form\AchievementUI.h">
+      <Filter>class\form</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\form\BarrackUI.h">
+      <Filter>class\form</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\form\BuildUI.h">
+      <Filter>class\form</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\form\ChgScene.h">
+      <Filter>class\form</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\form\CreateUI.h">
+      <Filter>class\form</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\form\FightUI.h">
+      <Filter>class\form</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\form\HeroUI.h">
+      <Filter>class\form</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\form\InfoUI.h">
+      <Filter>class\form</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\form\LabUI.h">
+      <Filter>class\form</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\form\LoadingUI.h">
+      <Filter>class\form</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\form\MainUI.h">
+      <Filter>class\form</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\form\PlayerUpLevelUI.h">
+      <Filter>class\form</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\form\RankingUI.h">
+      <Filter>class\form</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\form\ReplayUI.h">
+      <Filter>class\form</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\form\ScoreUI.h">
+      <Filter>class\form</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\form\Shop.h">
+      <Filter>class\form</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\form\SoldierUI.h">
+      <Filter>class\form</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\form\TypeShop.h">
+      <Filter>class\form</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\form\UpLevelUI.h">
+      <Filter>class\form</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\form\VisitUI.h">
+      <Filter>class\form</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\coc\AchievementInfo.h">
+      <Filter>class\coc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\coc\Action_GrayFlash.h">
+      <Filter>class\coc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\coc\Action_LightFlash.h">
+      <Filter>class\coc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\coc\Action_UpDown.h">
+      <Filter>class\coc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\coc\AniObj.h">
+      <Filter>class\coc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\coc\AniObj_FlyingFont.h">
+      <Filter>class\coc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\coc\AniObj_Normal.h">
+      <Filter>class\coc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\coc\AniObjMgr.h">
+      <Filter>class\coc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\coc\AStar.h">
+      <Filter>class\coc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\coc\AStarMap.h">
+      <Filter>class\coc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\coc\AStarNode.h">
+      <Filter>class\coc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\coc\AsyncImg.h">
+      <Filter>class\coc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\coc\BaseDef.h">
+      <Filter>class\coc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\coc\BaseObj.h">
+      <Filter>class\coc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\coc\CannonBomb.h">
+      <Filter>class\coc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\coc\CSV.h">
+      <Filter>class\coc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\coc\EmitterWorker.h">
+      <Filter>class\coc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\coc\ExperienceLevels.h">
+      <Filter>class\coc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\coc\Flying.h">
+      <Filter>class\coc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\coc\GoldEmitter.h">
+      <Filter>class\coc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\coc\GuideMgr.h">
+      <Filter>class\coc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\coc\ImgMgr.h">
+      <Filter>class\coc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\coc\Lock.h">
+      <Filter>class\coc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\coc\LogicInfo.h">
+      <Filter>class\coc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\coc\MapData.h">
+      <Filter>class\coc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\coc\MapFont.h">
+      <Filter>class\coc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\coc\NetListener.h">
+      <Filter>class\coc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\coc\NotifyListener.h">
+      <Filter>class\coc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\coc\OilEmitter.h">
+      <Filter>class\coc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\coc\ParticleSystem.h">
+      <Filter>class\coc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\coc\Path.h">
+      <Filter>class\coc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\coc\PlayerInfo.h">
+      <Filter>class\coc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\coc\PlayerScene.h">
+      <Filter>class\coc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\coc\Progress.h">
+      <Filter>class\coc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\coc\Progress2.h">
+      <Filter>class\coc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\coc\ProgressBar.h">
+      <Filter>class\coc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\coc\Projectile.h">
+      <Filter>class\coc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\coc\Projectile2.h">
+      <Filter>class\coc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\coc\SceneBgr.h">
+      <Filter>class\coc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\coc\SelectBuildingListener.h">
+      <Filter>class\coc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\coc\SoundMgr.h">
+      <Filter>class\coc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\coc\TownhallLevelInfo.h">
+      <Filter>class\coc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\coc\ViewStringMgr.h">
+      <Filter>class\coc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppDelegate.h">
+      <Filter>class</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\base32.h">
+      <Filter>class</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameLayer.h">
+      <Filter>class</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameWorldScene.h">
+      <Filter>class</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\HelloWorldScene.h">
+      <Filter>class</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h">
+      <Filter>class</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>class</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\coc\Building.h">
+      <Filter>class\coc\Building</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\coc\Building_Attack.h">
+      <Filter>class\coc\Building</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\coc\Building_Barrack.h">
+      <Filter>class\coc\Building</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\coc\Building_Cannon.h">
+      <Filter>class\coc\Building</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\coc\Building_Normal.h">
+      <Filter>class\coc\Building</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\coc\Building_Resource.h">
+      <Filter>class\coc\Building</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\coc\Building_Storage.h">
+      <Filter>class\coc\Building</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\coc\Building_Tower.h">
+      <Filter>class\coc\Building</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\coc\Building_Trap.h">
+      <Filter>class\coc\Building</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\coc\Building_Wall.h">
+      <Filter>class\coc\Building</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\coc\BuildingMgr.h">
+      <Filter>class\coc\Building</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\coc\Person.h">
+      <Filter>class\coc\Person</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\coc\PersonMgr.h">
+      <Filter>class\coc\Person</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\form\NotifyUI.h">
+      <Filter>class\form</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\coc\AStarAreaMap.h">
+      <Filter>class\coc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Framework\CAppPlatform.h">
+      <Filter>class\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Framework\InPurchase.h">
+      <Filter>class\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Global\AppConfig.h">
+      <Filter>class\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Utils\md5.h">
+      <Filter>class\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\coc\Building_Mortar.h">
+      <Filter>class\coc\Building</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\coc\BuildingInfoMgr.h">
+      <Filter>class\coc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\coc\BuildingDestroyEmitter.h">
+      <Filter>class\coc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Framework\CDevice.h">
+      <Filter>class\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\coc\Building_Clan.h">
+      <Filter>class\coc\Building</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\form\BonusUI.h">
+      <Filter>class\form</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\coc\HeroMgr.h">
+      <Filter>class\coc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\coc\SkillMgr.h">
+      <Filter>class\coc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\coc\RandMgr.h">
+      <Filter>class\coc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\extensions\CCScrollViewExt.h">
+      <Filter>class\extensions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\extensions\CUINode.h">
+      <Filter>class\extensions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\extensions\CUINodeCache.h">
+      <Filter>class\extensions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\form\FindMatchUI.h">
+      <Filter>class\form</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Utils\Base64.h">
+      <Filter>class\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Utils\CImagePacket.h">
+      <Filter>class\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Utils\crypt_aes.h">
+      <Filter>class\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Utils\DataDecrypt.h">
+      <Filter>class\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\form\RaidNotifyUI.h">
+      <Filter>class\form</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\form\MessageUI.h">
+      <Filter>class\form</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\coc\SceneResMgr.h">
+      <Filter>class\coc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\form\LogoUI.h">
+      <Filter>class\form</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\form\SkillGlyphUI.h">
+      <Filter>class\form</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\form\SkillUI.h">
+      <Filter>class\form</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\form\SkillInfoUI.h">
+      <Filter>class\form</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\coc\CSVMgr.h">
+      <Filter>class\coc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\zephyr\ViewString.h">
+      <Filter>class\zephyr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\form\SettingUI.h">
+      <Filter>class\form</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\form\ClanUI.h">
+      <Filter>class\form</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\coc\ClanMgr.h">
+      <Filter>class\coc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\form\SupportUI.h">
+      <Filter>class</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\extensions\CTextInputField.h">
+      <Filter>class\extensions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\extensions\CTextInputFieldImpl.h">
+      <Filter>class\extensions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\extensions\win32\CTextInputFieldWin32.h">
+      <Filter>class\extensions\win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\extensions\CRectLayer.h">
+      <Filter>class\extensions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\form\MailUI.h">
+      <Filter>class\form</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\form\SpinUI.h">
+      <Filter>class\form</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\form\DailyBonusUI.h">
+      <Filter>class\form</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\coc\ConfigValMgr.h">
+      <Filter>class\coc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\form\ChatUI.h">
+      <Filter>class\form</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\zephyr\EncryptInt.h">
+      <Filter>class\zephyr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Global\NGNKit.h">
+      <Filter>class\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\coc\ResConfig.h">
+      <Filter>class\coc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Framework\CHttpService.h">
+      <Filter>class\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Framework\CLocalManager.h">
+      <Filter>class\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Framework\CUserData.h">
+      <Filter>class\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Utils\network\CJsonParse.h">
+      <Filter>class\Utils\network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Utils\network\CNetData.h">
+      <Filter>class\Utils\network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Utils\network\CUrlParse.h">
+      <Filter>class\Utils\network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Utils\network\defpacketdefine.h">
+      <Filter>class\Utils\network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Utils\network\globaldefine.h">
+      <Filter>class\Utils\network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Utils\network\netstream.h">
+      <Filter>class\Utils\network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Utils\network\http\CHttpRequest.h">
+      <Filter>class\Utils\network\http</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Utils\network\scoket\CCSocket.h">
+      <Filter>class\Utils\network\scoket</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\coc\EnvMapMgr.h">
+      <Filter>class\coc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\form\SaleLogoUI.h">
+      <Filter>class\form</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\coc\Building_HeroAltar.h">
+      <Filter>class\coc\Building</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\coc\HttpClient.h">
+      <Filter>class\coc\Net</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\coc\SocketClient.h">
+      <Filter>class\coc\Net</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\coc\NetModBase.h">
+      <Filter>class\coc\Net</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\coc\Mod_User.h">
+      <Filter>class\coc\Net</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\coc\Mod_WorldChat.h">
+      <Filter>class\coc\Net</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\coc\ChatMgr.h">
+      <Filter>class\coc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\coc\Mod_Clan.h">
+      <Filter>class\coc\Net</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\form\EnvMapUI.h">
+      <Filter>class\form</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\form\GiftUI.h">
+      <Filter>class\form</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\form\ClanEditUI.h">
+      <Filter>class\form</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\form\ClanInfoUI.h">
+      <Filter>class\form</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\form\ItemMenuUI.h">
+      <Filter>class\form</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Utils\CDataStream.h">
+      <Filter>class\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Utils\CFileStream.h">
+      <Filter>class\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\coc\AniObj_Down.h">
+      <Filter>class\coc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\coc\AniObj_Flash.h">
+      <Filter>class\coc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\coc\AniObj_FlyingFont2.h">
+      <Filter>class\coc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\coc\AniObj_Move.h">
+      <Filter>class\coc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\coc\AniObj_WaitFadeOut.h">
+      <Filter>class\coc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\coc\BaseCSV.h">
+      <Filter>class\coc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\coc\LeagueMgr.h">
+      <Filter>class\coc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\coc\ViewString.h">
+      <Filter>class\coc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\coc\WorldSceneNode.h">
+      <Filter>class\coc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Global\AppDebug.h">
+      <Filter>class\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\coc\Building_ClanAllies.h">
+      <Filter>class\coc\Building</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\coc\Building_AirDefense.h">
+      <Filter>class\coc\Building</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\form\MilitaryRankUI.h">
+      <Filter>class\form</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\coc\MilitaryRankMgr.h">
+      <Filter>class\coc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\form\LeagueUI.h">
+      <Filter>class\form</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\zephyr\Progress.cpp">
+      <Filter>class\zephyr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\zephyr\Thread.cpp">
+      <Filter>class\zephyr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\zephyr\net\Base.cpp">
+      <Filter>class\zephyr\net</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\zephyr\net\MsgDecoder_Simple.cpp">
+      <Filter>class\zephyr\net</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\zephyr\net\MsgProc.cpp">
+      <Filter>class\zephyr\net</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\zephyr\net\NetKernel.cpp">
+      <Filter>class\zephyr\net</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\zephyr\net\TCPClient.cpp">
+      <Filter>class\zephyr\net</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\form\GuideUI.cpp">
+      <Filter>class\form</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\form\AchievementUI.cpp">
+      <Filter>class\form</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\form\BarrackUI.cpp">
+      <Filter>class\form</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\form\BuildUI.cpp">
+      <Filter>class\form</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\form\ChgScene.cpp">
+      <Filter>class\form</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\form\CreateUI.cpp">
+      <Filter>class\form</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\form\FightUI.cpp">
+      <Filter>class\form</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\form\HeroUI.cpp">
+      <Filter>class\form</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\form\InfoUI.cpp">
+      <Filter>class\form</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\form\LabUI.cpp">
+      <Filter>class\form</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\form\LoadingUI.cpp">
+      <Filter>class\form</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\form\MainUI.cpp">
+      <Filter>class\form</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\form\PlayerUpLevelUI.cpp">
+      <Filter>class\form</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\form\RankingUI.cpp">
+      <Filter>class\form</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\form\ReplayUI.cpp">
+      <Filter>class\form</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\form\ScoreUI.cpp">
+      <Filter>class\form</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\form\Shop.cpp">
+      <Filter>class\form</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\form\SoldierUI.cpp">
+      <Filter>class\form</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\form\TypeShop.cpp">
+      <Filter>class\form</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\form\UpLevelUI.cpp">
+      <Filter>class\form</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\form\VisitUI.cpp">
+      <Filter>class\form</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\coc\AchievementInfo.cpp">
+      <Filter>class\coc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\coc\Action_GrayFlash.cpp">
+      <Filter>class\coc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\coc\Action_LightFlash.cpp">
+      <Filter>class\coc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\coc\Action_UpDown.cpp">
+      <Filter>class\coc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\coc\AStar.cpp">
+      <Filter>class\coc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\coc\AStarMap.cpp">
+      <Filter>class\coc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\coc\AStarNode.cpp">
+      <Filter>class\coc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\coc\BaseDef.cpp">
+      <Filter>class\coc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\coc\BaseObj.cpp">
+      <Filter>class\coc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\coc\ExperienceLevels.cpp">
+      <Filter>class\coc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\coc\Flying.cpp">
+      <Filter>class\coc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\coc\GoldEmitter.cpp">
+      <Filter>class\coc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\coc\GuideMgr.cpp">
+      <Filter>class\coc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\coc\LogicInfo.cpp">
+      <Filter>class\coc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\coc\MapData.cpp">
+      <Filter>class\coc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\coc\OilEmitter.cpp">
+      <Filter>class\coc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\coc\ParticleSystem.cpp">
+      <Filter>class\coc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\coc\PlayerScene.cpp">
+      <Filter>class\coc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\coc\Progress2.cpp">
+      <Filter>class\coc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\coc\ProgressBar.cpp">
+      <Filter>class\coc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\coc\Projectile.cpp">
+      <Filter>class\coc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\coc\Projectile2.cpp">
+      <Filter>class\coc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\coc\SceneBgr.cpp">
+      <Filter>class\coc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\coc\SoundMgr.cpp">
+      <Filter>class\coc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\coc\TownhallLevelInfo.cpp">
+      <Filter>class\coc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\HelloWorldScene.cpp">
+      <Filter>class</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AppDelegate.cpp">
+      <Filter>class</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\base32.cpp">
+      <Filter>class</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameLayer.cpp">
+      <Filter>class</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameWorldScene.cpp">
+      <Filter>class</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\coc\Building.cpp">
+      <Filter>class\coc\Building</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\coc\Building_Attack.cpp">
+      <Filter>class\coc\Building</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\coc\Building_Barrack.cpp">
+      <Filter>class\coc\Building</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\coc\Building_Cannon.cpp">
+      <Filter>class\coc\Building</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\coc\Building_Normal.cpp">
+      <Filter>class\coc\Building</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\coc\Building_Resource.cpp">
+      <Filter>class\coc\Building</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\coc\Building_Storage.cpp">
+      <Filter>class\coc\Building</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\coc\Building_Tower.cpp">
+      <Filter>class\coc\Building</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\coc\Building_Trap.cpp">
+      <Filter>class\coc\Building</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\coc\Building_Wall.cpp">
+      <Filter>class\coc\Building</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\coc\BuildingMgr.cpp">
+      <Filter>class\coc\Building</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\coc\Person.cpp">
+      <Filter>class\coc\Person</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\coc\PersonMgr.cpp">
+      <Filter>class\coc\Person</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\form\NotifyUI.cpp">
+      <Filter>class\form</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\coc\AStarAreaMap.cpp">
+      <Filter>class\coc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Framework\platform\win32\CAppPlatform.cpp">
+      <Filter>class\Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Framework\InPurchase.cpp">
+      <Filter>class\Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Utils\md5.cpp">
+      <Filter>class\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\coc\Building_Mortar.cpp">
+      <Filter>class\coc\Building</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Framework\platform\win32\CDevice.cpp">
+      <Filter>class\Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\coc\BuildingInfoMgr.cpp">
+      <Filter>class\coc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\coc\BuildingDestroyEmitter.cpp">
+      <Filter>class\coc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Utils\CImagePacket.cpp">
+      <Filter>class\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\coc\Building_Clan.cpp">
+      <Filter>class\coc\Building</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\form\BonusUI.cpp">
+      <Filter>class\form</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\coc\HeroMgr.cpp">
+      <Filter>class\coc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\coc\SkillMgr.cpp">
+      <Filter>class\coc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\coc\RandMgr.cpp">
+      <Filter>class\coc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\extensions\CCScrollViewExt.cpp">
+      <Filter>class\extensions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\extensions\CUINode.cpp">
+      <Filter>class\extensions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\extensions\CUINodeCache.cpp">
+      <Filter>class\extensions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\form\FindMatchUI.cpp">
+      <Filter>class\form</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Utils\Base64.cpp">
+      <Filter>class\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Utils\crypt_aes.c">
+      <Filter>class\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\form\RaidNotifyUI.cpp">
+      <Filter>class\form</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\form\MessageUI.cpp">
+      <Filter>class\form</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\coc\SceneResMgr.cpp">
+      <Filter>class\coc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\form\LogoUI.cpp">
+      <Filter>class\form</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Utils\jsoncpp\json_reader.cpp">
+      <Filter>class\json</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Utils\jsoncpp\json_value.cpp">
+      <Filter>class\json</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Utils\jsoncpp\json_writer.cpp">
+      <Filter>class\json</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\form\SkillGlyphUI.cpp">
+      <Filter>class\form</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\form\SkillUI.cpp">
+      <Filter>class\form</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\form\SkillInfoUI.cpp">
+      <Filter>class\form</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\coc\CSVMgr.cpp">
+      <Filter>class\coc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\form\SettingUI.cpp">
+      <Filter>class\form</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\form\ClanUI.cpp">
+      <Filter>class\form</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\coc\ClanMgr.cpp">
+      <Filter>class\coc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\form\SupportUI.cpp">
+      <Filter>class</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\extensions\CTextInputField.cpp">
+      <Filter>class\extensions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\extensions\win32\CTextInputFieldWin32.cpp">
+      <Filter>class\extensions\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\extensions\CRectLayer.cpp">
+      <Filter>class\extensions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\form\MailUI.cpp">
+      <Filter>class\form</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\form\SpinUI.cpp">
+      <Filter>class\form</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\form\DailyBonusUI.cpp">
+      <Filter>class\form</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\coc\ConfigValMgr.cpp">
+      <Filter>class\coc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\form\ChatUI.cpp">
+      <Filter>class\form</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\zephyr\EncryptInt.cpp">
+      <Filter>class\zephyr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Global\NGNKit.cpp">
+      <Filter>class\Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\coc\ResConfig.cpp">
+      <Filter>class\coc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Framework\CHttpService.cpp">
+      <Filter>class\Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Utils\network\http\CHttpRequest.cpp">
+      <Filter>class\Utils\network\http</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Utils\network\scoket\CCSocket.cpp">
+      <Filter>class\Utils\network\scoket</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Utils\network\scoket\pthread.cpp">
+      <Filter>class\Utils\network\scoket</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\coc\EnvMapMgr.cpp">
+      <Filter>class\coc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\form\SaleLogoUI.cpp">
+      <Filter>class\form</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\coc\Building_HeroAltar.cpp">
+      <Filter>class\coc\Building</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\coc\HttpClient.cpp">
+      <Filter>class\coc\Net</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\coc\SocketClient.cpp">
+      <Filter>class\coc\Net</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\coc\Mod_User.cpp">
+      <Filter>class\coc\Net</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\coc\Mod_WorldChat.cpp">
+      <Filter>class\coc\Net</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\coc\ChatMgr.cpp">
+      <Filter>class\coc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\coc\Mod_Clan.cpp">
+      <Filter>class\coc\Net</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\form\EnvMapUI.cpp">
+      <Filter>class\form</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\form\GiftUI.cpp">
+      <Filter>class\form</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\form\ClanEditUI.cpp">
+      <Filter>class\form</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\form\ClanInfoUI.cpp">
+      <Filter>class\form</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\form\ItemMenuUI.cpp">
+      <Filter>class\form</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Utils\CDataStream.cpp">
+      <Filter>class\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Utils\CFileStream.cpp">
+      <Filter>class\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\coc\AniObj.cpp">
+      <Filter>class\coc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\coc\AniObj_Down.cpp">
+      <Filter>class\coc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\coc\AniObj_Flash.cpp">
+      <Filter>class\coc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\coc\AniObj_FlyingFont.cpp">
+      <Filter>class\coc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\coc\AniObj_FlyingFont2.cpp">
+      <Filter>class\coc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\coc\AniObj_Move.cpp">
+      <Filter>class\coc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\coc\AniObj_Normal.cpp">
+      <Filter>class\coc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\coc\AniObj_WaitFadeOut.cpp">
+      <Filter>class\coc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\coc\AniObjMgr.cpp">
+      <Filter>class\coc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\coc\BaseCSV.cpp">
+      <Filter>class\coc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\coc\ImgMgr.cpp">
+      <Filter>class\coc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\coc\LeagueMgr.cpp">
+      <Filter>class\coc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\coc\ViewString.cpp">
+      <Filter>class\coc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\coc\WorldSceneNode.cpp">
+      <Filter>class\coc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Global\AppConfig.cpp">
+      <Filter>class\Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Global\AppDebug.cpp">
+      <Filter>class\Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\coc\Building_ClanAllies.cpp">
+      <Filter>class\coc\Building</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\coc\Building_AirDefense.cpp">
+      <Filter>class\coc\Building</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\form\MilitaryRankUI.cpp">
+      <Filter>class\form</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\coc\MilitaryRankMgr.cpp">
+      <Filter>class\coc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\form\LeagueUI.cpp">
+      <Filter>class\form</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

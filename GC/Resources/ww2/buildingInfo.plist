@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>30601</key>
+	<dict>
+		<key>Desc</key>
+		<string>This is where the Commander lives. He/She gets trained, studies tactics and heals wounds here - getting ready for the next big battle!</string>
+	</dict>
+	<key>30101</key>
+	<dict>
+		<key>Desc</key>
+		<string>Rallying Points are the places where your troops station. Build more and upgrade them quickly to gather more and powerful troops than your rivals.</string>
+	</dict>
+	<key>20101</key>
+	<dict>
+		<key>Desc</key>
+		<string>HQ (Headquarter) is the nerve center of your base! Upgrade the HQ to unlock new defenses, buildings, mines and much more. Destroy enemy&apos;s HQ will win get you at least 1 star. Destroy 50% of the enemy&apos;s builds will get you another star. 3 stars means the total destruction of your enemy&apos;s base. So building strong defense around your HQ is definitely a smart strategy.</string>
+	</dict>
+	<key>20301</key>
+	<dict>
+		<key>Desc</key>
+		<string>The Oil Refinery collects and refine oil into fuel to power your industry and armies. </string>
+	</dict>
+	<key>20401</key>
+	<dict>
+		<key>Desc</key>
+		<string>The Fuel Depot is where refined fuels are stored for the army. Upgrade them to increase the maximum amount of fuel you can store.</string>
+	</dict>
+	<key>20501</key>
+	<dict>
+		<key>Desc</key>
+		<string>The Supply Bunker produces Supply. Upgrade it to boost its production and Supply storage capacity.</string>
+	</dict>
+	<key>20601</key>
+	<dict>
+		<key>Desc</key>
+		<string>Extra supplies are stored at the Storage Depot. Be aware of sneaky sappers that may attempt to loot the depots! Upgrade the storage to increase its capacity and durability against attack.</string>
+	</dict>
+	<key>30201</key>
+	<dict>
+		<key>Desc</key>
+		<string>The Barracks are where your new troops are trained. Upgrade the Barracks to unlock more powerful troops as quickly as you can. Do not fall behind your rivals!</string>
+	</dict>
+	<key>30301</key>
+	<dict>
+		<key>Desc</key>
+		<string>The Research Center is used to research new technology and tactics to enhance your army.</string>
+	</dict>
+	<key>30501</key>
+	<dict>
+		<key>Desc</key>
+		<string>Alliance Fortress is the place where the reinforcement troops from other members of the Alliance station. Use them when you wage the battles</string>
+	</dict>
+	<key>10101</key>
+	<dict>
+		<key>Range:</key>
+		<string>9 Tiles</string>
+		<key>Damage type:</key>
+		<string>Single Target</string>
+		<key>Targets:</key>
+		<string>Ground</string>
+		<key>Favorite target:</key>
+		<string>Any</string>
+		<key>Desc</key>
+		<string>Machine Gun (MG) Turrets are great for defense. Upgrade turrets to increase their fire power, but beware that it is out of commission while being upgraded!</string>
+	</dict>
+	<key>10201</key>
+	<dict>
+		<key>Range:</key>
+		<string>10 Tiles</string>
+		<key>Damage type:</key>
+		<string>Single Target</string>
+		<key>Targets:</key>
+		<string>Ground &amp; Air</string>
+		<key>Favorite target:</key>
+		<string>Air</string>
+		<key>Desc</key>
+		<string>Watch Towers have longer range and can attack enemies in the air.</string>
+	</dict>
+	<key>10301</key>
+	<dict>
+		<key>Desc</key>
+		<string>Walls are great for keeping your enemies out.</string>
+	</dict>
+	<key>10801</key>
+	<dict>
+		<key>Range:</key>
+		<string>7 Tiles</string>
+		<key>Damage type:</key>
+		<string>Area Splash</string>
+		<key>Targets:</key>
+		<string>Ground &amp; Air</string>
+		<key>Favorite target:</key>
+		<string>Any</string>
+		<key>Desc</key>
+		<string>The Metal Storm can deliver deadly shocks to both ground troops and flyers.</string>
+	</dict>
+	<key>10601</key>
+	<dict>
+		<key>Range:</key>
+		<string>10 Tiles</string>
+		<key>Damage type:</key>
+		<string>Area Splash</string>
+		<key>Targets:</key>
+		<string>Single Target</string>
+		<key>Favorite target:</key>
+		<string>Air</string>
+		<key>Desc</key>
+		<string>This anti-air weapon is deadly against flying enemies, but can&apos;t target the ones on the ground. </string>
+	</dict>
+	<key>10401</key>
+	<dict>
+		<key>Range:</key>
+		<string>4-11 Tiles</string>
+		<key>Damage type:</key>
+		<string>Area Splash</string>
+		<key>Targets:</key>
+		<string>Ground</string>
+		<key>Favorite target:</key>
+		<string>Any</string>
+		<key>Desc</key>
+		<string>The Howitzer can destroy a bunch of enemies at a time. They are very powerful against ground troops but needs time to reload. </string>
+	</dict>
+	<key>20201</key>
+	<dict>
+		<key>Desc</key>
+		<string>Treat your workers well and you can get a lot of things done! You can hire more workers to expand your base quickly and make it more powerful.</string>
+	</dict>
+</dict>
+</plist>

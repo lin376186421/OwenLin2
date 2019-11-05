@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>RES_TYPE</key>
+	<integer>1</integer>
+	<key>ADD_RES_FOR_OIL_FONT_COLOR</key>
+	<string>255,255,255</string>
+</dict>
+</plist>

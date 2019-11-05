@@ -1,0 +1,649 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>msg_noworker2</key>
+	<string>No worker available!</string>
+	<key>bonus_desc_6</key>
+	<string>Join Battle Glory Community and share info with other Battle Glory players.</string>
+	<key>bonus_title_6</key>
+	<string>Join Battle Glory Community</string>
+	<key>upgrade_walls_message</key>
+	<string>Are you sure you want to upgrade the selected walls for %d Gold?</string>
+	<key>upgrade_walls_title</key>
+	<string>Upgrade Walls</string>
+	<key>edit_save_title</key>
+	<string>Save Changes</string>
+	<key>edit_save_message</key>
+	<string>Are you sure you want to save your changes?</string>
+	<key>edit_exit_title</key>
+	<string>Exit Base Edit Mode</string>
+	<key>edit_exit_message</key>
+	<string>Are you sure you want to exit base edit mode and discard your changes?</string>
+	<key>remove_ornament_title</key>
+	<string>Remove %s</string>
+	<key>remove_ornament_message</key>
+	<string>Remove %s for %d Gems. Are you sure you want to remove it? (Tips: You can buy it again in the Shop)</string>
+	<key>edit_building_level</key>
+	<string>Level%d</string>
+	<key>erase_mode_on</key>
+	<string>Erase\nMode On</string>
+	<key>erase_mode_off</key>
+	<string>Erase\nMode Off</string>
+	<key>barrack_level</key>
+	<string>Level%d Barracks Required</string>
+	<key>barrack_nooil</key>
+	<string>You need more fuel!</string>
+	<key>barrack_title</key>
+	<string>TRAIN %d/%d</string>
+	<key>bonus_get</key>
+	<string>Get</string>
+	<key>bonus_title</key>
+	<string>Bonus</string>
+	<key>buff_against</key>
+	<string>Block damage</string>
+	<key>buff_super</key>
+	<string>Invulnerable to damage</string>
+	<key>buy_ok</key>
+	<string>Resource purchase succeeded!</string>
+	<key>buygem_fail</key>
+	<string>Purchase failed!</string>
+	<key>clancomein</key>
+	<string>You are now a member of alliance %s!</string>
+	<key>guide1_0</key>
+	<string>Welcome Commander! Soldiers are waiting for you..</string>
+	<key>guide1_1</key>
+	<string>This is your new Base, your responsibility is to defend the base at all cost.</string>
+	<key>guide1_2</key>
+	<string>Aieeie, what is this! Another puny army!</string>
+	<key>guide2_0</key>
+	<string>Enemy is coming. Don&apos;t panic, let&apos;s set up a MG Turret to defend the Base.</string>
+	<key>guide2_1</key>
+	<string>Place the MG Turret in the center of the Base. We must protect the Headquarter.</string>
+	<key>guide3_0</key>
+	<string>Speed is everything. Spend some gems to speed things up.</string>
+	<key>guide3_1</key>
+	<string>Aieeie, there they are! Attack!</string>
+	<key>guide3_2</key>
+	<string>Great defense! Thanks Commander!</string>
+	<key>guide3_3</key>
+	<string>Don&apos;t worry commander! The MG Turret will be repaired over time. You need to pay attention to more important things.</string>
+	<key>guide4_0</key>
+	<string>We have someone here to help us! Let&apos;s take out the Enemy camp! </string>
+	<key>guide4_1</key>
+	<string>Tap multiple times in an empty area to deploy your troops.</string>
+	<key>guide4_2</key>
+	<string>Good job, soldier! Now we need to get this Base into fighting shape.</string>
+	<key>guide5_0</key>
+	<string>Hiring a second worker will let you start two constructions simultaneously.</string>
+	<key>guide6_0</key>
+	<string>Fuel is essential for modern warfare, keep it coming.</string>
+	<key>guide6_1</key>
+	<string>Build the fuel refinery and keep producing fuel. Let&apos;s try it!</string>
+	<key>guide7_0</key>
+	<string>The oil refinery can only store a small amount of fuel.</string>
+	<key>guide7_1</key>
+	<string>Let’s build a Fuel Depot, so we can stockpile the fuel!</string>
+	<key>guide8_0</key>
+	<string>We also need a safe place to store our gold.</string>
+	<key>guide8_1</key>
+	<string>We will take all your gold!!! Watch ...</string>
+	<key>guide9_0</key>
+	<string>Commander, we need more soldiers to fight those enemies! Let&apos;s build a barrack.</string>
+	<key>guide10_0</key>
+	<string>Now let&apos;s train some troops!</string>
+	<key>guide11_0</key>
+	<string>Well done. How about teaching them a lesson again?</string>
+	<key>guide11_1</key>
+	<string>You can deploy multiple troops by holding down your finger.</string>
+	<key>guide12_0</key>
+	<string>That was a great battle. My name is ...</string>
+	<key>guide13_0</key>
+	<string>With the gold we took from the enemies, we now can upgrade the Headquarter.</string>
+	<key>guide13_1</key>
+	<string>Good job! We can now build new buildings thanks to the Headquarter upgrade.</string>
+	<key>guide14_0</key>
+	<string>If you&apos;re looking for new challenges to beat, just &apos;tapping&apos; ME.</string>
+	<key>guide_99</key>
+	<string>Commander, you obviously know what you are doing. The whole Base is all yours to lead!</string>
+	<key>have_protect</key>
+	<string>Attacking will disable your shield. Do you want to continue?</string>
+	<key>attack_target_all</key>
+	<string>All</string>
+	<key>attack_target_ground</key>
+	<string>Ground</string>
+	<key>attack_area</key>
+	<string>Area Splash</string>
+	<key>attack_single</key>
+	<string>Single</string>
+	<key>info_damage</key>
+	<string>Damage per second:%d/%d</string>
+	<key>info_hitpoint</key>
+	<string>Hitpoints:%d/%d</string>
+	<key>info_production</key>
+	<string>Production Rate:%d per hour</string>
+	<key>info_storage_capacity</key>
+	<string>Storage Capacity:%d/%d</string>
+	<key>info_title</key>
+	<string>%s(Level%d)</string>
+	<key>lab_maxlevel</key>
+	<string>Max Level </string>
+	<key>lab_request_level</key>
+	<string>Request Level%d</string>
+	<key>lab_title_choose</key>
+	<string>Choose What to Upgrade</string>
+	<key>lab_title_upgrading</key>
+	<string>Upgrade in progress</string>
+	<key>msg_break</key>
+	<string>Are you sure that you want to cancel? Only 50% of the cost will be returned.</string>
+	<key>msg_end_battle</key>
+	<string>Do you really want to end this battle?</string>
+	<key>msg_nogem</key>
+	<string>Would you like to buy some Gems?</string>
+	<key>msg_nogoil_title</key>
+	<string> You Need More Fuel!</string>
+	<key>msg_nogold_message</key>
+	<string> Would you like to use Gems to buy %d Gold?</string>
+	<key>request_troops_title</key>
+	<string>Reinforcement Troops</string>
+	<key>request_troops_message</key>
+	<string>Help! Need Backup!</string>
+	<key>request_troops_again_title</key>
+	<string>Request Now!</string>
+	<key>request_troops_again_message</key>
+	<string>Do you want to skip waiting and reinforcement troops now?</string>
+	<key>msg_nogold_title</key>
+	<string> You Need More Gold!</string>
+	<key>msg_nomoney</key>
+	<string>Not enough Gold!</string>
+	<key>msg_nooil_message</key>
+	<string>Would you like to use Gems to buy %d Fuel?</string>
+	<key>msg_nooil_soldier</key>
+	<string> No Fuel available to train more troops</string>
+	<key>msg_noworker</key>
+	<string>No worker available! Would you like to use Gems to free up a worker?</string>
+	<key>msg_clanname_error</key>
+	<string>Army Alliance name is incorrect.</string>
+	<key>msg_clan_leave</key>
+	<string>Do you really want to leave the Army Alliance?</string>
+	<key>msg_clan_dismiss</key>
+	<string>Do you really want to leave? The Alliance will be deleted if you leave!</string>
+	<key>msg_clan_join</key>
+	<string>Do you want to join the Army Alliance?</string>
+	<key>msg_quit</key>
+	<string>Do you really want to quit the game?</string>
+	<key>msg_replay</key>
+	<string>Replay is over.</string>
+	<key>msg_speed</key>
+	<string>Do you want to speed up and finish it now?</string>
+	<key>no_soldier</key>
+	<string>You don&apos;t have any troops.</string>
+	<key>none</key>
+	<string>none</string>
+	<key>playerupinfo_damage</key>
+	<string>Damage per second:%d</string>
+	<key>playerupinfo_hitpoint</key>
+	<string>Hitpoint:%d</string>
+	<key>playerupinfo_trainingcost</key>
+	<string>Training Cost:%dFuel</string>
+	<key>playeruplevel_any</key>
+	<string>Any</string>
+	<key>playeruplevel_damage</key>
+	<string>Damage per second:%d+%d</string>
+	<key>playeruplevel_defenses</key>
+	<string>Defenses</string>
+	<key>playeruplevel_hitpoint</key>
+	<string>Hitpoint:%d+%d</string>
+	<key>playeruplevel_housing_space</key>
+	<string>Housing Space:</string>
+	<key>playeruplevel_resources</key>
+	<string>Resources</string>
+	<key>playeruplevel_training_time</key>
+	<string>Training Time:</string>
+	<key>playeruplevel_trainingcost</key>
+	<string>Training Cost:%dFuel+%d</string>
+	<key>playeruplevel_troop_capacity</key>
+	<string>Troop capacity:%d+%d</string>
+	<key>playeruplevel_walls</key>
+	<string>Walls</string>
+	<key>player_troop_capacity</key>
+	<string>Troop capacity:%d</string>
+	<key>ranking_title</key>
+	<string>Top Players</string>
+	<key>rate_free_gem_tips</key>
+	<string>You will get 10 FREE gems if you give us a good rating!</string>
+	<key>rate_gem</key>
+	<string>Gem</string>
+	<key>rate_tips</key>
+	<string>If you enjoy using %@ would you mind taking a moment to rate it?</string>
+	<key>title</key>
+	<string>Clash of Armies</string>
+	<key>troop_capacity</key>
+	<string>Troop capacity:%d/%d</string>
+	<key>upgrade_title</key>
+	<string>Upgrade to level %d?</string>
+	<key>uplevel_capacity</key>
+	<string>Capacity:%d/%d</string>
+	<key>uplevel_damage</key>
+	<string>Damage per second:%d+%d</string>
+	<key>uplevel_error_gold</key>
+	<string>You need to upgrade your Supply Depot!</string>
+	<key>uplevel_error_hall</key>
+	<string>You need to upgrade your HQ!</string>
+	<key>uplevel_error_oil</key>
+	<string>You need to upgrade your Fuel Depot!</string>
+	<key>uplevel_production_rate</key>
+	<string>Production Rate:%d+%d per hour</string>
+	<key>uplevel_storage_capacity</key>
+	<string>Storage Capacity:%d+%d</string>
+	<key>uplevel_unlocks_buildings</key>
+	<string>Unlocks Buildings:</string>
+	<key>uplevel_unlocks_warrior</key>
+	<string>Unlocks Warrior:</string>
+	<key>uplevel_upgrade_time</key>
+	<string>Upgrade time</string>
+	<key>zhanbao_enemy_raid</key>
+	<string>Enemy Raid</string>
+	<key>zhanbao_enemy_tips</key>
+	<string>Commander, the base was attacked while you were gone!</string>
+	<key>zhanbao_title</key>
+	<string>Commander, our army was attacked!</string>
+	<key>loading_tip_0</key>
+	<string>Use decorations to improve the base!</string>
+	<key>loading_tip_1</key>
+	<string>Mines are hidden from the attackers until they get close enough.</string>
+	<key>loading_tip_2</key>
+	<string>MG Turrets can only shoot at ground units.</string>
+	<key>loading_tip_3</key>
+	<string>Supply Depot and Oil Refineries do not generate resources while they are being upgraded.</string>
+	<key>loading_tip_4</key>
+	<string>Defensive buildings like MG Turrets can&apos;t shoot while they are being upgraded.</string>
+	<key>loading_tip_5</key>
+	<string>Watch Towers can target both air and ground units.</string>
+	<key>loading_tip_6</key>
+	<string>Out of Gold? Try upgrading your Gold Mines.</string>
+	<key>loading_tip_7</key>
+	<string>An active shield protects you from all attacks.</string>
+	<key>loading_tip_8</key>
+	<string>Flamethrowers prefer to attack defensive structures like MG Turrets.</string>
+	<key>loading_tip_9</key>
+	<string>Upgrade your MG Turrets to improve your defense against intruders.</string>
+	<key>soldier_101</key>
+	<string>The basic Rifleman is a fearless soldier. Armed and in numbers they can conquer any lands and wreck any army. Train an army of Riflemen and you will have nothing to fear!</string>
+	<key>soldier_102</key>
+	<string>The Grenadier fire rocket propelled grenades at targets that trouble the Rifleman. The best Grenadiers can shoot with great precision.</string>
+	<key>soldier_103</key>
+	<string>Sappers are sneaky combat engineers that are as fast as lightning! Given the opportunity they will loot a supply depot clean.</string>
+	<key>soldier_104</key>
+	<string>Chosen for their strength and endurance, members of the Flamethrower Battalion are used to assault the toughest defenses. </string>
+	<key>soldier_105</key>
+	<string>The Goliath Demolisher is a mad rumbling machine of destruction designed to blow up the toughest walls.</string>
+	<key>soldier_106</key>
+	<string>The Blitz Blimps were once majestic leisure ships cruising the open sky. Now adapted for combat, deploy them with care and they will clear the way with their high explosive bombs!</string>
+	<key>soldier_107</key>
+	<string>No modern army is complete without mobile support. The War Truck can usually be found at the focal point of any battle supporting the troops.</string>
+	<key>soldier_108</key>
+	<string>The noble nurses of the Air Medivac Corps stand ready to heal any ground troops, but make sure you protect them from air defenses!</string>
+	<key>soldier_109</key>
+	<string>&quot;They came from behind!&quot; are usually the last words uttered by those who faced the fliers of the Red Baron Squadron. These terrifying airmen show no mercy to anybody. They can easily destroy enemy troops.</string>
+	<key>soldier_110</key>
+	<string>Behold the Tank! In the Sturm und Drang of war, nothing prepares one to face against the iron beast that belches fire and death.</string>
+	<key>recover_hero_hp_title</key>
+	<string>Recover Commander HP</string>
+	<key>recover_hero_hp_message</key>
+	<string>Use %d Gems to recover your commander&apos;s HP instantly. Recover Now!</string>
+	<key>not_enough_gems</key>
+	<string>You don&apos;t have enough Gem to trigger the tactic.</string>
+	<key>change_talent_title</key>
+	<string>Change Tactic</string>
+	<key>change_talent_message</key>
+	<string>It will replace your previous tactic with the selected one.</string>
+	<key>sound_on</key>
+	<string>ON</string>
+	<key>sound_off</key>
+	<string>OFF</string>
+	<key>new_user_login_title</key>
+	<string>New %s Login</string>
+	<key>new_user_login_message</key>
+	<string>Do you want to save your current game on this %s account?</string>
+	<key>user_login_change_title</key>
+	<string>%s Alert</string>
+	<key>user_login_change_message</key>
+	<string>Do you want to load Commander %s army with HQ level %d? Warning: progress in the current game will be lost.</string>
+	<key>userid_confirm_title</key>
+	<string>Are you sure?</string>
+	<key>userid_confirm_message</key>
+	<string>Are you absolutely sure you that want to \ndelete the current Army Alliance and replace it \nwith:</string>
+	<key>skill_exp_add_tip</key>
+	<string>Skill EXP Added:+%d</string>
+	<key>soldier_troops_full</key>
+	<string>Your troops are ready for battle!</string>
+	<key>building_build_complete</key>
+	<string>Your %s has been completed!</string>
+	<key>building_upgrade_complete</key>
+	<string>%s upgraded to level %d.</string>
+	<key>hero_unupgrade_tip</key>
+	<string>You cannot level up your Commander until your HQ is upgraded to Level %d.</string>
+	<key>skill_unupgrade_tip</key>
+	<string>You cannot upgrade your skill unless you upgrade your Commander to Level %d.</string>
+	<key>skill_unlock_tip</key>
+	<string>But don&apos;t worry! It just means you have not unlocked it yet. Keep training your commander to level %d to get it!</string>
+	<key>bug_submit_title</key>
+	<string>Submit Succeeded!</string>
+	<key>bug_submit_message</key>
+	<string>We greatly appreciate your suggestion or bug reports. If an unknown bug your reported is confirmed, gems will be rewarded !</string>
+	<key>times_out_title</key>
+	<string>Commander, are you there?</string>
+	<key>times_out_message</key>
+	<string>Tap the Button below to reload into the game.</string>
+	<key>revenge_user_online</key>
+	<string>Can&apos;t attack! Base owner is online.</string>
+	<key>revenge_user_shield</key>
+	<string>Can&apos;t attack! Base has active shield.</string>
+	<key>revenge_user_attack</key>
+	<string>Can&apos;t attack! Base is being attacked.</string>
+	<key>warning_title</key>
+	<string>Warning</string>
+	<key>gold_storages_full_tip</key>
+	<string>What a waste! Supply Depot is full! Upgrade Supply Depot to store more gold!</string>
+	<key>elixir_storages_full_tip</key>
+	<string>What a waste! Fuel Depot is full! Upgrade Fuel Depot to store more fuel!</string>
+	<key>signin_tip</key>
+	<string>You have logined in %d days in a row.</string>
+	<key>gift_packages_tip</key>
+	<string>Incredible First Time Buyer Packages just for you! Buy one of the packages and you will get up to %d%% gems.</string>
+	<key>shop_bonus_tip</key>
+	<string>First Time Buyer Best Deal just for you! Buy the Package labelled with &quot;Best Deal&quot; and you will get up to 240% gems!</string>
+	<key>first_package_title</key>
+	<string>First Time Buyer Package</string>
+	<key>recharge_package_title</key>
+	<string>Recharge Rewards</string>
+	<key>data_sync_error</key>
+	<string>Data Error! Please tap the OK button to reload into the game.</string>
+	<key>uplevel_unlocks_tip</key>
+	<string>Note: Upgrading will reduce your loot from opponents with HQ level %d and below.</string>
+	<key>bonus_title_0</key>
+	<string>Rate %s</string>
+	<key>bonus_desc_0</key>
+	<string>give us good feedback</string>
+	<key>bonus_title_1</key>
+	<string>First Time Purchase</string>
+	<key>bonus_desc_1</key>
+	<string>To thank you for your first purchase, you are given 10%% bonus gems! %s, Play on!</string>
+	<key>bonus_title_2</key>
+	<string>More FREE Gems!</string>
+	<key>bonus_desc_2</key>
+	<string>Complete specified quests to gain more FREE Gems!</string>
+	<key>bonus_title_3</key>
+	<string>First Time Buyer Package</string>
+	<key>bonus_title_4</key>
+	<string>Connect to your Facebook account.</string>
+	<key>bonus_title_5</key>
+	<string>Invite your friends</string>
+	<key>bonus_desc_3</key>
+	<string>Incredible First Time Buyer Packages just for you! Buy one of the packages and you will get up to %d%% gems.</string>
+	<key>bonus_desc_4</key>
+	<string>Connecting to your Facebook account to save your game info. You will be able to load your game from any device by logging into your Facebook account.</string>
+	<key>bonus_desc_5</key>
+	<string>Invite your friends from Facebook to play our game and you will earn up to 2000 FREE Gems.</string>
+	<key>pve_not_life</key>
+	<string>Failed to load Campaign since your HP is low!</string>
+	<key>pve_full_life</key>
+	<string>%d Gems to restore full HP!</string>
+	<key>order_confirm_title</key>
+	<string>Order Confirming…</string>
+	<key>order_confirm_message</key>
+	<string>Confirming… Please wait!</string>
+	<key>order_confirm_successed</key>
+	<string>Order Confirmation Succeeded!</string>
+	<key>order_confirm_failed</key>
+	<string>Order Confirmation Failed!</string>
+	<key>get_gem_title</key>
+	<string>Gift Package received!</string>
+	<key>get_gem_message</key>
+	<string>The Gift Package includes:</string>
+	<key>fb_login_freegem_message</key>
+	<string>You are now connected to your Facebook account and are awarded with 10 Gems. Click the Okay button below to claim the Gems.</string>
+	<key>fb_invite_freegem_message</key>
+	<string>Congratulations! You got %d FREE gems for sending out %d invites to your friends.</string>
+	<key>fb_share_succeed_message</key>
+	<string>Congratulations! You got %d FREE gems for sharing your achievements in Battle Glory with your friends!</string>
+	<key>fb_share_info</key>
+	<string>The picture has been sent to your Facebook page.</string>
+	<key>fb_share_freegem_message</key>
+	<string>Post your mighty base on Facebook, you will get 5 FREE gems!</string>
+	<key>fb_share_message</key>
+	<string>Post your mighty base on Facebook to share with your friends!</string>
+	<key>ads_loading_wait</key>
+	<string>Loading the offer wall, please wait.....</string>
+	<key>ads_loading_faild</key>
+	<string>Failed to load the offer wall right now! Try it later!</string>
+	<key>name_base_tip</key>
+	<string>Please name your base.</string>
+	<key>clan_castle_full_tip</key>
+	<string>Allied Fortress is already full!</string>
+	<key>military_upgrade_info</key>
+	<string>You have been promoted to %s!!!</string>
+	<key>lb_group_info</key>
+	<string>You are in Group %d out of total of %d groups</string>
+	<key>lb_playing_tip_info</key>
+	<string>Earn more Honors to be qualified for the next League Level and win League Battles for more rewards!</string>
+	<key>lb_not_cup_tip_info</key>
+	<string>You are not qualify for League Battles. Earn at least %d Honors to enter League Battles!</string>
+	<key>lb_start_tip_info</key>
+	<string>Current League Battles has already started. You will enter the next League Battles automatically when the next League Battles starts.</string>
+	<key>lb_group_done_tip_info</key>
+	<string>You are too late to enter the current League Battles. You will enter the  League Battles automatically when a new League Battles starts after the this one. </string>
+	<key>lb_end_tip_info</key>
+	<string>You will enter the League Battles automatically when a new League Battles starts.</string>
+	<key>share_replay</key>
+	<string>Share Replay</string>
+	<key>share_attack_against</key>
+	<string>Attack against:</string>
+	<key>share_defend_against</key>
+	<string>Defense against:</string>
+	<key>no_news_tip</key>
+	<string>No News</string>
+	<key>no_battlelog_tip</key>
+	<string>No Records</string>
+	<key>get_soldier_tip</key>
+	<string>You have received level %d %s from %s!</string>
+	<key>add_gem_string</key>
+	<string>Thank you for using the Free Gems function! You are rewarded by %s with the following Gems. Click on the Okay button to claim them!</string>
+	<key>not_enough_message_gem</key>
+	<string>Not enough Gems</string>
+	<key>buy_gold_confirm_title</key>
+	<string>Buy Gold?</string>
+	<key>buy_gold_confirm_message</key>
+	<string>Are you sure you want to buy %d Gold for %d Gems?</string>
+	<key>buy_gold_ok</key>
+	<string>Bought Gold Success!</string>
+	<key>buy_oil_confirm_title</key>
+	<string>Buy Oil?</string>
+	<key>buy_oil_confirm_message</key>
+	<string>Are you sure you want to buy %d Oil for %d Gems?</string>
+	<key>buy_oil_ok</key>
+	<string>Bought Oil Success!</string>
+	<key>buy_shield_confirm_title</key>
+	<string>Buy Shield?</string>
+	<key>buy_shield_confirm_message</key>
+	<string>Are you sure you want to buy Shield (%d Day) for %d Gems?</string>
+	<key>buy_shield_ok</key>
+	<string>Bought Shield Success!</string>
+	<key>clan_join_ok</key>
+	<string>You are now a member of %s.</string>
+	<key>socket_disconnect_tip</key>
+	<string>Connection to alliance server lost! Try it later.</string>
+	<key>battle_win_title</key>
+	<string>Victory!</string>
+	<key>battle_lose_title</key>
+	<string>Defeated!</string>
+	<key>clan_national_select_tip</key>
+	<string>Your alliance has not declared any allegiance to any country. Do it now!</string>
+	<key>citywar_attack_win_tip</key>
+	<string>Taking over the city requires at least</string>
+	<key>citywar_defend_win_tip</key>
+	<string>You will lose the city if an attacker gets</string>
+	<key>citywar_state_countdown_tip</key>
+	<string>Starts in</string>
+	<key>citywar_state_signup_end_tip</key>
+	<string>Sign-up ends in</string>
+	<key>citywar_state_start_time_tip</key>
+	<string>Starts In</string>
+	<key>citywar_state_end_time_tip</key>
+	<string>Ends In</string>
+	<key>citywar_state_close_tip</key>
+	<string>To Be Announced</string>
+	<key>citywar_state_score_tip</key>
+	<string>Waiting Results</string>
+	<key>citywar_attack_win_message</key>
+	<string>Congratulations!!! Your alliance has taken over the city of %s and you will occupy the city until the next City Battles!</string>
+	<key>citywar_attack_lose_message</key>
+	<string>Sorry that your alliance failed to take the city of %s!</string>
+	<key>citywar_defend_win_message</key>
+	<string>Congratulations!!! Your alliance is victorious in defending the city of %s! And you will continue to occupy the city!</string>
+	<key>citywar_defend_lose_message</key>
+	<string>Sorry that your alliance failed to repel the attackers and you lost the city: %s!</string>
+	<key>clanwar_start_title</key>
+	<string>City Battles Sign Up</string>
+	<key>clanwar_start_message</key>
+	<string>Next round of City Battles will start soon. As the Alliance Commander, you need to sign up for your alliance to take part in the battles!</string>
+	<key>clanwar_signup_title</key>
+	<string>City Battles Started</string>
+	<key>clanwar_signup_message</key>
+	<string>Your alliance is attacking! As a member of the attacking team, go and join the battles!</string>
+	<key>groupwar_start_title</key>
+	<string>City Invasion Started</string>
+	<key>groupwar_start_message</key>
+	<string>A new round of City Invasion has started! Go to the World Map to start your invasion and be the conquer of the city! Any alliance member can start the invasion.</string>
+	<key>citywar_no_clan_tip</key>
+	<string>You have to rebuild your Alliance Fortress and join an alliance to play City Battle or City Invasion.</string>
+	<key>citybattle_title</key>
+	<string>City Battles</string>
+	<key>cityinvasion_title</key>
+	<string>City Invasion</string>
+	<key>env_stage_names</key>
+	<dict>
+		<key>stage_0</key>
+		<string>Mukden Incident</string>
+		<key>stage_1</key>
+		<string>Defense of Harbin</string>
+		<key>stage_2</key>
+		<string>Saar Offensive</string>
+		<key>stage_3</key>
+		<string>Siege of Warsaw</string>
+		<key>stage_4</key>
+		<string>Winter War</string>
+		<key>stage_5</key>
+		<string>Altmark Incident</string>
+		<key>stage_6</key>
+		<string>Norwegian Campaign</string>
+		<key>stage_7</key>
+		<string>Battle of Belgium</string>
+		<key>stage_8</key>
+		<string>Maginot Line</string>
+		<key>stage_9</key>
+		<string>Battle of Sedan</string>
+		<key>stage_10</key>
+		<string>Battle of Arras</string>
+		<key>stage_11</key>
+		<string>Siege of Lille</string>
+		<key>stage_12</key>
+		<string>Operation Paula</string>
+		<key>stage_13</key>
+		<string>Siege of Malta</string>
+		<key>stage_14</key>
+		<string>Battle of Saumuri</string>
+		<key>stage_15</key>
+		<string>The Hardest Day</string>
+		<key>stage_16</key>
+		<string>The Blitz</string>
+		<key>stage_17</key>
+		<string>Siege of Tobruk</string>
+		<key>stage_18</key>
+		<string>Battle of Greece</string>
+		<key>stage_19</key>
+		<string>Battle of Crete</string>
+		<key>stage_20</key>
+		<string>Iraq Campaign</string>
+		<key>stage_21</key>
+		<string>Operation Crusader</string>
+		<key>stage_22</key>
+		<string>Philippines Campaign</string>
+		<key>stage_23</key>
+		<string>Operation Cerberus</string>
+		<key>stage_24</key>
+		<string>St. Nazaire Raid</string>
+		<key>stage_25</key>
+		<string>Indian Ocean Raid</string>
+		<key>stage_26</key>
+		<string>Battle of Gazala</string>
+		<key>stage_27</key>
+		<string>Dieppe Raid</string>
+		<key>stage_28</key>
+		<string>Battle of Alamein</string>
+		<key>stage_29</key>
+		<string>Operation Torch</string>
+		<key>stage_30</key>
+		<string>Tunisia Campaign</string>
+		<key>stage_31</key>
+		<string>Battle of Naples</string>
+		<key>stage_32</key>
+		<string>Volturno Line</string>
+		<key>stage_33</key>
+		<string>Barbara Line</string>
+		<key>stage_34</key>
+		<string>Battle of Ortona</string>
+		<key>stage_35</key>
+		<string>Bernhardt Line</string>
+		<key>stage_36</key>
+		<string>All Raid on Bari</string>
+		<key>stage_37</key>
+		<string>Battle of Berlin</string>
+		<key>stage_38</key>
+		<string>Battle for Caen</string>
+		<key>stage_39</key>
+		<string>Operation Perch</string>
+		<key>stage_40</key>
+		<string>Operation Epsom</string>
+		<key>stage_41</key>
+		<string>Operation Atlantic</string>
+		<key>stage_42</key>
+		<string>Operation Dragoon</string>
+		<key>stage_43</key>
+		<string>Gothic Line</string>
+		<key>stage_44</key>
+		<string>Operation Astonia</string>
+		<key>stage_45</key>
+		<string>Operation Nordwind</string>
+		<key>stage_46</key>
+		<string>Samland Offensive</string>
+		<key>stage_47</key>
+		<string>Operation Blackcock</string>
+		<key>stage_48</key>
+		<string>Battle of Bologna</string>
+		<key>stage_49</key>
+		<string>Operation Tiderace</string>
+		<key>stage_1000</key>
+		<string>September Campaign</string>
+		<key>stage_1001</key>
+		<string>Siege of Dunkirk</string>
+		<key>stage_1002</key>
+		<string>Battle of Britain</string>
+		<key>stage_1003</key>
+		<string>Defense of Moscow</string>
+		<key>stage_1004</key>
+		<string>Battle of Pearl Harbor</string>
+		<key>stage_1005</key>
+		<string>Battle of Midway</string>
+		<key>stage_1006</key>
+		<string>Battle of Guam</string>
+		<key>stage_1007</key>
+		<string>Invasion of Normandy</string>
+		<key>stage_1008</key>
+		<string>Defense of Berlin</string>
+		<key>stage_1009</key>
+		<string>Battle of Okinawa</string>
+	</dict>
+</dict>
+</plist>

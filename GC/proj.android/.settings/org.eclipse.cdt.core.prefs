@@ -1,0 +1,11 @@
+eclipse.preferences.version=1
+environment/project/com.android.toolchain.gcc.168180858/NDK_ROOT/delimiter=\:
+environment/project/com.android.toolchain.gcc.168180858/NDK_ROOT/operation=replace
+environment/project/com.android.toolchain.gcc.168180858/NDK_ROOT/value=/Developer/Android/android-ndk-r10
+environment/project/com.android.toolchain.gcc.168180858/append=true
+environment/project/com.android.toolchain.gcc.168180858/appendContributed=true
+environment/project/org.eclipse.linuxtools.cdt.autotools.core.toolChain.938465451/NDK_ROOT/delimiter=\:
+environment/project/org.eclipse.linuxtools.cdt.autotools.core.toolChain.938465451/NDK_ROOT/operation=append
+environment/project/org.eclipse.linuxtools.cdt.autotools.core.toolChain.938465451/NDK_ROOT/value=/Developer/Android/android-ndk-r8b
+environment/project/org.eclipse.linuxtools.cdt.autotools.core.toolChain.938465451/append=true
+environment/project/org.eclipse.linuxtools.cdt.autotools.core.toolChain.938465451/appendContributed=true
