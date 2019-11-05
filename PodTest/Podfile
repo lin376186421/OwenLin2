@@ -1,0 +1,21 @@
+
+source 'git@git.chelun.com:CocoaPods/Specs.git'
+source 'git@git.chelun.com:ios/Specs.git'
+
+inhibit_all_warnings!
+
+platform :ios, '8.0'
+target 'PodTest' do
+pod 'AFNetworking'
+pod 'NVBnbCollectionView'
+#pod 'SFFocusViewLayout' '1.1.1' 新版本是swift
+pod 'UITableView+FDTemplateLayoutCell'
+pod 'YYText'
+pod 'YYModel'
+pod 'YYWebImage'
+pod 'LGDrawer'
+pod 'SocketRocket'
+#pod 'cl_gpuimage'
+#pod 'cl_gpuvideo'
+pod 'cl_ffmpeg'
+end

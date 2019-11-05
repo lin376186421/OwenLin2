@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="yaP-DB-o13"/>
+                        <viewControllerLayoutGuide type="bottom" id="aTU-Ps-CaT"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="p2L-mp-LoI">
+                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="29"/>
+                                <state key="normal" title="点我"/>
+                                <connections>
+                                    <action selector="click:" destination="BYZ-38-t0r" eventType="touchUpInside" id="CKY-Ah-0h8"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="p2L-mp-LoI" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="249-G8-bMM"/>
+                            <constraint firstAttribute="trailing" secondItem="p2L-mp-LoI" secondAttribute="trailing" id="371-ua-Jgy"/>
+                            <constraint firstItem="p2L-mp-LoI" firstAttribute="top" secondItem="yaP-DB-o13" secondAttribute="bottom" id="Ep8-Kk-Oei"/>
+                            <constraint firstItem="aTU-Ps-CaT" firstAttribute="top" secondItem="p2L-mp-LoI" secondAttribute="bottom" id="wgd-Vj-tCa"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="clickBtn" destination="p2L-mp-LoI" id="5PN-uc-R5n"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="364" y="98"/>
+        </scene>
+    </scenes>
+</document>

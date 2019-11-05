@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="84" id="KGk-i7-Jjw" customClass="CommentCell2">
+            <rect key="frame" x="0.0" y="0.0" width="327" height="84"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <frame key="frameInset" width="327" height="83.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YNd-9d-wwh">
+                        <frame key="frameInset" minX="3" minY="3" width="42.5" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="18000000000" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SS6-cl-loi">
+                        <frame key="frameInset" minX="50.5" minY="7" width="93.5" height="17"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="popover_upgrade_icon" translatesAutoresizingMaskIntoConstraints="NO" id="jug-dp-HiW">
+                        <frame key="frameInset" minX="20" minY="39" width="287" height="31.5"/>
+                    </imageView>
+                    <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fEV-If-GCg" customClass="YYLabel">
+                        <frame key="frameInset" minX="20" minY="44" width="307" height="19.5"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottomMargin" secondItem="fEV-If-GCg" secondAttribute="bottom" constant="12" id="Qgk-wt-a7i"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="jug-dp-HiW" secondAttribute="bottom" constant="5" id="Uyq-WO-4zD"/>
+                    <constraint firstItem="SS6-cl-loi" firstAttribute="bottom" secondItem="YNd-9d-wwh" secondAttribute="bottom" id="fV7-rs-vAz"/>
+                    <constraint firstItem="fEV-If-GCg" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="nU5-M6-R40"/>
+                    <constraint firstAttribute="leadingMargin" secondItem="YNd-9d-wwh" secondAttribute="leading" constant="5" id="qDg-JE-cO2"/>
+                    <constraint firstAttribute="trailing" secondItem="fEV-If-GCg" secondAttribute="trailing" id="qHG-ik-GeV"/>
+                    <constraint firstItem="jug-dp-HiW" firstAttribute="top" secondItem="YNd-9d-wwh" secondAttribute="bottom" constant="15" id="rRS-vV-vLw"/>
+                    <constraint firstItem="fEV-If-GCg" firstAttribute="top" secondItem="YNd-9d-wwh" secondAttribute="bottom" constant="20" id="smf-3s-vKR"/>
+                    <constraint firstItem="SS6-cl-loi" firstAttribute="leading" secondItem="YNd-9d-wwh" secondAttribute="trailing" constant="5" id="u6N-Z2-EJ1"/>
+                    <constraint firstAttribute="topMargin" secondItem="YNd-9d-wwh" secondAttribute="top" constant="5" id="veN-HW-SvB"/>
+                    <constraint firstAttribute="trailing" secondItem="jug-dp-HiW" secondAttribute="trailing" constant="20" id="xlj-PD-sWc"/>
+                    <constraint firstItem="jug-dp-HiW" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="yYB-bY-Al6"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="comLab" destination="fEV-If-GCg" id="hxT-CH-VDl"/>
+                <outlet property="nameLab" destination="YNd-9d-wwh" id="iO8-30-4M1"/>
+                <outlet property="numLab" destination="SS6-cl-loi" id="6Oq-EJ-4F3"/>
+            </connections>
+            <point key="canvasLocation" x="344.5" y="406"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="popover_upgrade_icon" width="32" height="32"/>
+    </resources>
+</document>

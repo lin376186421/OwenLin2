@@ -1,0 +1,18 @@
+//
+//  TestAClass.m
+//  Text.A
+//
+//  Created by 林 on 17/2/9.
+//  Copyright © 2017年 林. All rights reserved.
+//
+
+#import "TestAClass.h"
+
+@implementation TestAClass
+
++ (void)printA
+{
+    NSLog(@"%s",__FUNCTION__);
+}
+
+@end

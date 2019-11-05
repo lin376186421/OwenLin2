@@ -1,0 +1,51 @@
+//
+//  PrefixHeader.pch
+//  RecordVideoDemo
+//
+//  Created by 林 on 2019/1/21.
+//  Copyright © 2019 林. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#ifdef __OBJC__
+
+#define SCGreenColor SCBgGreenColor
+#define SCBgGreenColor [UIColor colorWithHexValue:0x07B168] // 背景绿色
+#define SCGreenColorString @"07b168" // 背景绿色
+
+typedef void (^SCCustomCallBack)(id data);
+
+
+#import "UIColor+Util.h"
+#import "BPUIColorAdditions.h"
+#import "BPUIViewAdditions.h"
+#import "YYModel.h"
+#import "DTYYModelEntity.h"
+#import "UIView+Utils.h"
+#import "DTShowView.h"
+#import "UILabel+Label.h"
+#import "UIButton+Utils.h"
+#import "DTPubUtil.h"
+#import "UILabel+Additions.h"
+#import "NSArray+Utils.h"
+#import "GPUImage.h"
+
+#define FONT(SIZE) [UIFont systemFontOfSize:SIZE]
+#define FONT_B(SIZE) [UIFont boldSystemFontOfSize:SIZE]
+
+// 设备显示相关
+#define SCREEN_WIDTH        (CGRectGetWidth([UIScreen mainScreen].bounds))
+#define SCREEN_HEIGHT       (CGRectGetHeight([UIScreen mainScreen].bounds))
+#define SCREEN_SCALE        ([UIScreen mainScreen].scale)
+#define SCREEN_SIZE         [UIScreen mainScreen].bounds.size
+
+#define WEAK_SELF      __weak __typeof(&*self)weakSelf = self;
+
+#endif
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* PrefixHeader_pch */

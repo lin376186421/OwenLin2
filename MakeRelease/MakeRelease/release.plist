@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PROJECT_PATH</key>
+	<string>/Work/iOS/BattleOfClans/client</string>
+	<key>INFO_PLIST</key>
+	<string>$PROJECT_PATH/GameClient/proj.ios/Info.plist</string>
+	<key>AppConfig</key>
+	<string>$PROJECT_PATH/GameClient/Classes/Global/AppConfig.h</string>
+	<key>XCODE_PROJECT</key>
+	<string>$PROJECT_PATH/GameClient/proj.ios/GameClient.xcodeproj/project.pbxproj</string>
+	<key>TARGET_DEVICE</key>
+	<string>iPhone</string>
+	<key>InfoPlist</key>
+	<dict>
+		<key>CFBundleIdentifier</key>
+		<string>com.toktoo.ActionHeroBattles2201</string>
+		<key>CFBundleName</key>
+		<string>Hero Battles</string>
+		<key>Bundle display name</key>
+		<string>Hero Battles</string>
+		<key>CFBundleVersion</key>
+		<string>1.51</string>
+	</dict>
+	<key>KeyValues</key>
+	<array>
+		<dict>
+			<key>FilePath</key>
+			<string>$PROJECT_PATH/GameClient/proj.ios/Info.plist</string>
+			<key>KeyValue</key>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.toktoo.ActionHeroBattles2201</string>
+				<key>CFBundleName</key>
+				<string>Hero Battles</string>
+				<key>Bundle display name</key>
+				<string>Hero Battles</string>
+				<key>CFBundleVersion</key>
+				<string>1.51</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>FilePath</key>
+			<string>$PROJECT_PATH/GameClient/Classes/Global/AppConfig.h</string>
+			<key>KeyValue</key>
+			<dict>
+				<key>PLATFORM_TARGET</key>
+				<string>IPhone</string>
+				<key>SERVICE_DEBUG</key>
+				<string>0</string>
+				<key>GAME_CENTER_TOP_ACHIEVEMENT</key>
+				<string>top_achievements_actionherobattles2201</string>
+				<key>TARGET_IPHONE</key>
+				<dict>
+					<key>APP_ID</key>
+					<string>763318151</string>
+					<key>APP_STORE_URL</key>
+					<string>https://itunes.apple.com/us/app/action-hero-battles/id763318151?ls=1&amp;mt=8</string>
+					<key>FLURRY_API_KEY</key>
+					<string>W4RH76VWYNCQZK9R4VJT</string>
+					<key>TAPJOY_APP_ID</key>
+					<string>701a6ef7-3528-4ff3-8008-cddd9ba10763</string>
+					<key>TAPJOY_SECRET_KEY</key>
+					<string>xTn2KqQGjBUy2MG2DRn3</string>
+					<key>CHARTBOOST_APP_ID</key>
+					<string>528f06a59ddc353b8a67f54e</string>
+					<key>CHARTBOOST_APP_SIGNATURE</key>
+					<string>741ab591e99a7b110aaf02d251a040e259563456</string>
+					<key>AARKI_APP_ID</key>
+					<string>1B7DD931DABE23EF1AA</string>
+					<key>AARKI_SECRET_KEY</key>
+					<string>4GKMEr7JyxLRAtfZ9kMjwVarCVAJ</string>
+					<key>MDOTM_APP_KEY</key>
+					<string>9ed4e981d41a4a0bc1fb58570d36818a</string>
+					<key>PURCHASE_KEY_1</key>
+					<string>gems_01_tire2_actionherobattles2201</string>
+					<key>PURCHASE_KEY_2</key>
+					<string>gems_02_tire4_actionherobattles2201</string>
+					<key>PURCHASE_KEY_3</key>
+					<string>gems_03_tire8_actionherobattles2201</string>
+					<key>PURCHASE_KEY_4</key>
+					<string>gems_04_tire20_actionherobattles2201</string>
+					<key>PURCHASE_KEY_5</key>
+					<string>gems_05_tire40_actionherobattles2201</string>
+					<key>PURCHASE_KEY_6</key>
+					<string>gems_06_tire60_actionherobattles2201</string>
+				</dict>
+			</dict>
+		</dict>
+	</array>
+	<key>Files</key>
+	<array>
+		<string>/Work/iOS/BattleOfClans/ReleaseVersion/coolgig/icon,$PROJECT_PATH/GameClient/resources/icon</string>
+		<string>/Work/iOS/BattleOfClans/ReleaseVersion/coolgig/res/iphone,$PROJECT_PATH/GameClient/resources/Images</string>
+	</array>
+</dict>
+</plist>

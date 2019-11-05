@@ -1,0 +1,4 @@
+platform :ios, '7.0'
+target 'RecordVideoDemo' do
+#pod 'OpenCV', '~> 3.0.0'
+end

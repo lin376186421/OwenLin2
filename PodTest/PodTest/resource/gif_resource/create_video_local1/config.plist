@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>gifList</key>
+	<array>
+		<dict>
+			<key>count</key>
+			<string>64</string>
+			<key>path</key>
+			<string>section1</string>
+			<key>prefixFileName</key>
+			<string>sc_video_bg_gif_section1_</string>
+			<key>loopsCount</key>
+			<string>0</string>
+			<key>width</key>
+			<string>375</string>
+			<key>height</key>
+			<string>500</string>
+			<key>dir</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>count</key>
+			<string>64</string>
+			<key>path</key>
+			<string>section2</string>
+			<key>prefixFileName</key>
+			<string>sc_video_bg_gif_section2_</string>
+			<key>loopsCount</key>
+			<string>0</string>
+			<key>width</key>
+			<string>375</string>
+			<key>height</key>
+			<string>250</string>
+			<key>dir</key>
+			<string>2</string>
+		</dict>
+	</array>
+	<key>mp3Path</key>
+	<string>video_1.mp3|video_2.mp3|video_3.mp3</string>
+</dict>
+</plist>

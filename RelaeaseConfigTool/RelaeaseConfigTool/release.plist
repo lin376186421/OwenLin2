@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PROJECT_PATH</key>
+	<string>~/Desktop/C_Project/DrivingTest</string>
+	<key>INFO_PLIST</key>
+	<string>$PROJECT_PATH/DrivingTest/DrivingTest-Info.plist</string>
+	<key>APP_CONFIGS</key>
+	<string>$PROJECT_PATH/DrivingTest/DTConstants.h</string>
+	<key>APP_DEFINE</key>
+	<string>$PROJECT_PATH/DrivingTest/DTDefine.h</string>
+	<key>XCODE_PROJECT</key>
+	<string>$PROJECT_PATH/DrivingTest.xcodeproj/project.pbxproj</string>
+	<key>InfoPlist</key>
+	<dict>
+		<key>CFBundleIdentifier</key>
+		<string>com.chelun.drivingtest</string>
+		<key>CFBundleName</key>
+		<string>车轮考驾照</string>
+		<key>CFBundleDisplayName</key>
+		<string>车轮考驾照</string>
+		<key>CFBundleVersion</key>
+		<string>6.8.2.3</string>
+		<key>CFBundleShortVersionString</key>
+		<string>6.8.2</string>
+		<key>UIFileSharingEnabled</key>
+		<false/>
+	</dict>
+	<key>ConfigKeys</key>
+	<dict>
+		<key>APP_PRODUCTION_VERIFY_DATE</key>
+		<string>5</string>
+		<key>PRODUCTION</key>
+		<true/>
+		<key>RELEASE_DEBUG</key>
+		<false/>
+		<key>DEBUG_PRODUCTION</key>
+		<false/>
+		<key>AD_DEBUG</key>
+		<false/>
+		<key>JAILBREAKE</key>
+		<false/>
+		<key>APP_PRODUCTION_CHARGE</key>
+		<false/>
+	</dict>
+	<key>DefineKeys</key>
+	<dict>
+		<key>APP_CONST_QUESTION_VERSION</key>
+		<string>680</string>
+	</dict>
+	<key>XcodeKeys</key>
+	<dict>
+		<key>TARGET_DEVICE</key>
+		<string>iPhone,iPad</string>
+	</dict>
+	<key>Files</key>
+	<array>
+		<string>~/Desktop/分版文件/拆分版资源/精华/logo,$PROJECT_PATH/DrivingTest/resource/logo</string>
+		<string>~/Desktop/分版文件/拆分版资源/精华/Images.xcassets,$PROJECT_PATH/DrivingTest/Images.xcassets</string>
+	</array>
+</dict>
+</plist>

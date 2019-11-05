@@ -1,0 +1,6 @@
+framework module CL_FFmpeg_Framework {
+  umbrella header "CL_FFmpeg_Framework.h"
+
+  export *
+  module * { export * }
+}

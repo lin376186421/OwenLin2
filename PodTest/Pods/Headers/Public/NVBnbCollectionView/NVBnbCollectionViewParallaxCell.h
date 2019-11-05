@@ -1,0 +1,1 @@
+../../../NVBnbCollectionView/NVBnbCollectionView/NVBnbCollectionViewParallaxCell.h
